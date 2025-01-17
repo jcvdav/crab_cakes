@@ -27,7 +27,7 @@ lb_data <- read_rds(here("data", "processed", "lb_data_all.rds"))
 # X ----------------------------------------------------------------------------
 profitability_metrics <- lb_data %>% 
   filter(!site_name == "TURF") %>% 
-  group_by(location, year, site_name, species_short) %>% 
+  group_by(location, year, site_name, target_spp) %>% 
   summarize(n_days = n_distinct(date),
             catch_total_kg = sum(catch_total_kg, na.rm = T),
             catch_num = sum(catch_num, na.rm = T),
@@ -35,10 +35,10 @@ profitability_metrics <- lb_data %>%
             cost_usd = sum(cost_usd, na.rm = T) / 1000,
             profits_usd = sum(profits_usd, na.rm = T) / 1000,
             .groups = "drop") %>% 
-  mutate(n_days = ifelse(species_short == "P. interruptus", 15, n_days),
-         CPUE_kg_day = catch_total_kg / n_days,
-         CPUE_num_day = catch_num / n_days) %>% 
-  mutate(species_short = str_to_title(str_replace_all(species_short, "_", " ")))
+  mutate(n_days = ifelse(target_spp == "red_lobster", 15, n_days),
+         profits_per_effort = profits_usd / n_days) %>% 
+  mutate(target_spp = str_to_sentence(str_replace_all(target_spp, "_", " ")),
+         location = ifelse(location == "NAT", "Isla Natividad", "El Rosario"))
 
 
 # X ----------------------------------------------------------------------------
@@ -46,7 +46,7 @@ table <- kbl(profitability_metrics,
     col.names = c("Location", "Year", "Reserve", "Target species",
                   "Days fishing", "Total Catch (Kg)", "Total Catch (#)",
                   "Revenue (K $USD)", "Cost (K $USD)", "Profits (K $USD)",
-                  "CPUE(kg/day)", "CPUE (#/day)"),
+                  "Daily profits(K $USD/day)"),
     digits = 2)
 
 ## EXPORT ######################################################################
@@ -56,3 +56,5 @@ save_kable(x = table,
            file = here("results", "tab", "harvest_summary.pdf"))
 save_kable(x = table,
            file = here("results", "tab", "harvest_summary.png"))
+save_kable(x = table,
+           file = here("results", "tab", "harvest_summary.html"))

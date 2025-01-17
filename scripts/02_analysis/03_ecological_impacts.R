@@ -44,10 +44,16 @@ ero_2021_caracolera_urchin <- invert_transects %>%
          event = year - 2022,
          treated = 1 * (site_name == "Caracolera"))
 
-# NO ero_2023_lobster because they fished between Sept 17 and Oct 1, 2023. That year's monitoring was between 2023-08-02 and 2023-08-11, so ther is no post-harvest data (yet)
+ero_2023_lobster <- invert_transects |> 
+  filter(community == "El Rosario",
+         species == "Panulirus interruptus") %>% 
+  mutate(post = 1 * (year >= 2024), # They fished between Sept 17 and Oct 1, 2023. That year's monitoring was between 2023-08-02 and 2023-08-11
+         event = year - 2024,
+         treated = 1 * (site_name == "Sportfish"))
 
 ero <- bind_rows(ero_2020_sportfish_abalone,
-                 ero_2021_caracolera_urchin)
+                 ero_2021_caracolera_urchin,
+                 ero_2023_lobster)
 
 nat_2023_abalone <- invert_transects %>% 
   filter(community == "Isla Natividad",
@@ -90,9 +96,9 @@ ggplot(data = data,
   stat_summary(geom = "point", fun = "mean") + 
   facet_wrap(community ~ species_short, scales = "free_y", as.table = T) +
   scale_color_manual(values = my_color_scale) +
-  theme(legend.position = "inside",
-        legend.justification.inside = c(1, 0),
-        legend.position.inside = c(0.9, 0),
+  theme(legend.position = "bottom",
+        # legend.justification.inside = c(1, 0),
+        # legend.position.inside = c(0.9, 0),
         legend.title.position = "top") +
   labs(x = "Time-to-harvesting event (years)",
        y = "Density (org / m2)",
@@ -129,9 +135,9 @@ p2 <- map_dfr(mod2, tidy, conf.int = T, .id = "sample") %>%
   scale_color_manual(values = my_color_scale) +
   facet_wrap(community~species, scales = "free_y") +
   theme_minimal(base_size = 10) +
-  theme(legend.position = "inside",
-        legend.justification.inside = c(1, 0),
-        legend.position.inside = c(0.9, 0),
+  theme(legend.position = "bottom",
+        # legend.justification.inside = c(1, 0),
+        # legend.position.inside = c(0.9, 0),
         legend.title.position = "top") +
   labs(x = "Time-to-harvesting event (years)",
        y = "Estimate and 95% Conf. Int.",

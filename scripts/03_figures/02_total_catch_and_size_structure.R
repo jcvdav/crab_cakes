@@ -31,22 +31,25 @@ ss_data <- readRDS(here("data/processed/ss_data_all.rds"))
 # X ----------------------------------------------------------------------------
 main_lb_data <- lb_data %>%
   filter(!site_name == "TURF") %>% 
-  group_by(code, species_short) %>% 
+  group_by(code, target_spp) %>% 
   summarize(catch_total_kg = sum(catch_total_kg, na.rm = T),
-            .groups = "drop") 
+            catch_num = sum(catch_num, na.rm = T),
+            .groups = "drop") |> 
+  mutate(target_spp = str_to_sentence(str_replace_all(target_spp, "_", " ")))
 
 main_ss_data <- ss_data %>%
-  filter(!site_name == "TURF")
+  filter(!site_name == "TURF") |> 
+  mutate(target_spp = str_to_sentence(str_replace_all(target_spp, "_", " ")))
 
 ## VISUALIZE ###################################################################
-my_color_scale <- c("H. corrugata" = "#F781BF",
-                    "H. fulgens" = "#4DAF4A",
-                    "M. franciscanus" = "#E41A1C",
-                    "P. interruptus" = "#A65628")
+my_color_scale <- c("Pink abalone" = "#c995c7",
+                    "Green abalone" = "#65805d",
+                    "Red urchin" = scales::muted("red"),
+                    "Red lobster" = "#805d5d")
 
 # X ----------------------------------------------------------------------------
 extraction <- ggplot(data = main_lb_data,
-       mapping = aes(x = code, y = catch_total_kg, fill = species_short)) +
+       mapping = aes(x = code, y = catch_total_kg, fill = target_spp)) +
   geom_col(color = "black",
            linewidth = 0.5) +
   scale_fill_manual(values = my_color_scale) +
@@ -59,13 +62,13 @@ extraction <- ggplot(data = main_lb_data,
   coord_flip()
 
 size_dist <- ggplot(data = main_ss_data,
-       mapping = aes(x = size_cm, fill = species_short)) + 
+       mapping = aes(x = size_cm, fill = target_spp)) + 
   geom_histogram(binwidth = 1,
                  position = "dodge",
                  color = "black",
                  linewidth = 0.1) +
   scale_fill_manual(values = my_color_scale) +
-  facet_wrap(code ~ species_short, scales = "free_y", ncol = 2, as.table = F) +
+  facet_wrap(code ~ target_spp, scales = "free_y", ncol = 2, as.table = F) +
   theme(legend.position = "None") +
   labs(x = "Length (cm)",
        y = "Number of individuals")
@@ -74,3 +77,4 @@ size_dist <- ggplot(data = main_ss_data,
 cowplot::plot_grid(extraction, size_dist,
                    ncol = 2,
                    labels = c("AUTO"))
+
