@@ -47,7 +47,7 @@ ero_2021_caracolera_urchin <- invert_transects %>%
 ero_2023_lobster <- invert_transects |> 
   filter(community == "El Rosario",
          species == "Panulirus interruptus") %>% 
-  mutate(post = 1 * (year >= 2024), # They fished between Sept 17 and Oct 1, 2023. That year's monitoring was between 2023-08-02 and 2023-08-11
+  mutate(post = 1 * (year >= 2024), # They fished between Sept 17 and Oct 1, 2023. That year's monitoring was between 2023-08-02 and 2023-08-11, so it was before
          event = year - 2024,
          treated = 1 * (site_name == "Sportfish"))
 
@@ -77,28 +77,25 @@ data <- bind_rows(ero, nat) %>%
   mutate(species_short = str_replace(species, "Haliotis", "H."),
          species_short = str_replace(species_short, "Mesocentrotus", "M."),
          species_short = str_replace(species_short, "Panulirus","P."),
-         community = fct_relevel(community, "Isla Natividad", "El Rosario"),
-         species_short = fct_relevel(species_short, "H. fulgens", "H. corrugata", "M. franciscanus", "P. interruptus"))
+         community = fct_relevel(community, "Isla Natividad", "El Rosario")) |> 
+  mutate(target_spp = str_to_sentence(str_replace_all(target_spp, "_", " ")))
 
 ## VISUALIZE ###################################################################
-my_color_scale <- c("H. corrugata" = "#F781BF",
-                    "H. fulgens" = "#4DAF4A",
-                    "M. franciscanus" = "#E41A1C",
-                    "P. interruptus" = "#A65628")
+my_color_scale <- c("Pink abalone" = "#c995c7",
+                    "Green abalone" = "#65805d",
+                    "Red urchin" = scales::muted("red"),
+                    "Red lobster" = "#805d5d")
 
 # X ----------------------------------------------------------------------------
-
 ggplot(data = data,
        aes(x = event, y = density, group = site_type,
-           linetype = site_type, shape = site_type, color = species_short)) +
+           linetype = site_type, shape = site_type, color = target_spp)) +
   geom_vline(xintercept = -0.5, linetype = "dashed") +
   stat_summary(geom = "line", fun = "mean") + 
   stat_summary(geom = "point", fun = "mean") + 
-  facet_wrap(community ~ species_short, scales = "free_y", as.table = T) +
+  facet_wrap(community ~ target_spp, scales = "free_y", as.table = T) +
   scale_color_manual(values = my_color_scale) +
   theme(legend.position = "bottom",
-        # legend.justification.inside = c(1, 0),
-        # legend.position.inside = c(0.9, 0),
         legend.title.position = "top") +
   labs(x = "Time-to-harvesting event (years)",
        y = "Density (org / m2)",
@@ -106,38 +103,25 @@ ggplot(data = data,
        linetype = "Harvested site",
        shape = "Harvested site")
 
-
-
-mod1 <- feols(asinh(density) ~ i(event, treated, -1) | site_name + year + species_short,
-             data = data,
-             cluster = ~site_name)
-
-mod2 <- feols(asinh(density) ~ i(event, treated, -1) | site_name + year,
+mod1 <- feols(asinh(density) ~ i(event, treated, -1) | site_name + year,
               data = data,
               cluster = ~site_name,
-              split = ~paste(community, species_short))
+              split = ~paste(community, target_spp))
 
-p1 <- ggiplot(object = mod1) +
-  labs(x = "Time-to-harvesting event") +
-  theme_minimal(base_size = 10) +
-  theme(legend.position = "None")
-
-p2 <- map_dfr(mod2, tidy, conf.int = T, .id = "sample") %>% 
+p1 <- map_dfr(mod1, tidy, conf.int = T, .id = "sample") %>% 
   mutate(x = as.numeric(str_extract(term, "-?[:digit:]+")),
-         species = str_extract(sample, "H. fulgens|H. corrugata|M. franciscanus|P. interruptus"),
+         species = str_extract(sample, "Pink abalone|Green abalone|Red urchin|Red lobster"),
          community = str_extract(sample, "El Rosario|Isla Natividad"),
-         community = fct_relevel(community, "Isla Natividad", "El Rosario"),
-         species = fct_relevel(species, "H. fulgens", "H. corrugata", "M. franciscanus", "P. interruptus")) %>% 
+         community = fct_relevel(community, "Isla Natividad", "El Rosario")) |> 
   ggplot(aes(x = x, y = estimate, color = species)) + 
   geom_hline(yintercept = 0, linewidth = 0.5) +
   geom_vline(xintercept = -1, linewidth = 0.5, linetype = "dashed") +
   geom_pointrange(aes(ymin = conf.low, ymax = conf.high)) +
+  geom_point(x = -1, y = 0, color = "black") +
   scale_color_manual(values = my_color_scale) +
   facet_wrap(community~species, scales = "free_y") +
   theme_minimal(base_size = 10) +
   theme(legend.position = "bottom",
-        # legend.justification.inside = c(1, 0),
-        # legend.position.inside = c(0.9, 0),
         legend.title.position = "top") +
   labs(x = "Time-to-harvesting event (years)",
        y = "Estimate and 95% Conf. Int.",
@@ -146,17 +130,23 @@ p2 <- map_dfr(mod2, tidy, conf.int = T, .id = "sample") %>%
        shape = "Harvested site")
 
 
-cowplot::plot_grid(p1, p2,
-                   ncol = 1,
-                   labels = "AUTO")
+p1
 
-mod <- feols(asinh(density) ~ post*treated | site_name + year,
-             data = data,
-             cluster = ~site_name,
-             split = ~paste(community, species_short))
 
-modelsummary(mod,
-             gof_omit = c("IC|W|RMSE|Std|FE"),
+
+agg_mod <- feols(log(density) ~ post*treated | site_name + year,
+                 data = data,
+                 cluster = ~site_name,
+                 split = ~paste(community, target_spp)) |> 
+  set_names(c("El Rosario Green abalone",
+              "El Rosario Red lobster",
+              "El Rosario Red urchin",
+              "Isla Natividad Green abalone",
+              "Isla Natividad Pink abalone",
+              "Isla Natividad Red lobster"))
+
+modelsummary(agg_mod,
+             gof_omit = c("IC|W|RMSE|FE"),
              stars = panelsummary:::econ_stars())
 
 ## EXPORT ######################################################################
