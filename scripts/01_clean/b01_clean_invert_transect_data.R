@@ -77,7 +77,7 @@ final <- Inv |>
                                 species == "Haliotis fulgens" ~ "green_abalone",
                                 species == "Mesocentrotus franciscanus" ~ "red_urchin",
                                 species == "Panulirus interruptus" ~ "red_lobster")) %>% 
-  select(id, community, site_name, year, species, target_spp, abundance) |> 
+  select(id, year, community, site_name, transect, species, target_spp, abundance) |> 
   mutate(density = abundance / 60)
 
 ## EXPORT ######################################################################
