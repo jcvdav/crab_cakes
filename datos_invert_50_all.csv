@@ -1,0 +1,625 @@
+id,year,community,site_name,transect,species,abundance
+21 8 2006 Babencho 3,2006,Isla Natividad,Babencho,3,Megastraea undosa,50
+23 8 2006 Babencho 6,2006,Isla Natividad,Babencho,6,Megastraea undosa,50
+1 8 2009 La Plana / Las Cuevas 12,2009,Isla Natividad,La Plana/Las Cuevas,12,Megastraea undosa,50
+8 8 2009 La Plana / Las Cuevas 25,2009,Isla Natividad,La Plana/Las Cuevas,25,Megastraea undosa,50
+3 8 2011 Punta Prieta 17,2011,Isla Natividad,Punta Prieta,17,Megastraea undosa,50
+30 7 2012 Babencho 9,2012,Isla Natividad,Babencho,9,Megastraea undosa,50
+6 8 2012 La Dulce 23,2012,Isla Natividad,La Dulce,23,Megastraea undosa,50
+17 8 2013 Caracolera 7,2013,El Rosario,Caracolera,7,Mesocentrotus franciscanus,50
+14 8 2013 Chinatown 3,2013,El Rosario,Chinatown,3,Kelletia kelletii,50
+14 8 2013 Chinatown 3,2013,El Rosario,Chinatown,3,Megastraea undosa,50
+14 8 2013 Chinatown 4,2013,El Rosario,Chinatown,4,Kelletia kelletii,50
+14 8 2013 Chinatown 4,2013,El Rosario,Chinatown,4,Megastraea undosa,50
+15 8 2013 La Lobera 2,2013,El Rosario,La Lobera,2,Strongylocentrotus purpuratus,50
+15 8 2013 La Lobera 3,2013,El Rosario,La Lobera,3,Strongylocentrotus purpuratus,50
+15 8 2013 La Lobera 5,2013,El Rosario,La Lobera,5,Mesocentrotus franciscanus,50
+15 8 2013 La Lobera 6,2013,El Rosario,La Lobera,6,Mesocentrotus franciscanus,50
+15 8 2013 La Lobera 6,2013,El Rosario,La Lobera,6,Strongylocentrotus purpuratus,50
+15 8 2013 La Lobera 10,2013,El Rosario,La Lobera,10,Mesocentrotus franciscanus,50
+19 8 2013 Picacho 2,2013,El Rosario,Picacho,2,Mesocentrotus franciscanus,50
+19 8 2013 Picacho 2,2013,El Rosario,Picacho,2,Strongylocentrotus purpuratus,50
+19 8 2013 Picacho 4,2013,El Rosario,Picacho,4,Strongylocentrotus purpuratus,50
+19 8 2013 Picacho 6,2013,El Rosario,Picacho,6,Mesocentrotus franciscanus,50
+19 8 2013 Picacho 6,2013,El Rosario,Picacho,6,Strongylocentrotus purpuratus,50
+19 8 2013 Picacho 10,2013,El Rosario,Picacho,10,Mesocentrotus franciscanus,50
+19 8 2013 Picacho 10,2013,El Rosario,Picacho,10,Strongylocentrotus purpuratus,50
+16 8 2013 Piedra Vidal 1,2013,El Rosario,Piedra Vidal,1,Mesocentrotus franciscanus,50
+16 8 2013 Piedra Vidal 1,2013,El Rosario,Piedra Vidal,1,Strongylocentrotus purpuratus,50
+16 8 2013 Piedra Vidal 2,2013,El Rosario,Piedra Vidal,2,Strongylocentrotus purpuratus,50
+16 8 2013 Piedra Vidal 3,2013,El Rosario,Piedra Vidal,3,Mesocentrotus franciscanus,50
+16 8 2013 Piedra Vidal 3,2013,El Rosario,Piedra Vidal,3,Strongylocentrotus purpuratus,50
+16 8 2013 Piedra Vidal 4,2013,El Rosario,Piedra Vidal,4,Strongylocentrotus purpuratus,50
+16 8 2013 Piedra Vidal 5,2013,El Rosario,Piedra Vidal,5,Mesocentrotus franciscanus,50
+16 8 2013 Piedra Vidal 6,2013,El Rosario,Piedra Vidal,6,Strongylocentrotus purpuratus,50
+16 8 2013 Piedra Vidal 8,2013,El Rosario,Piedra Vidal,8,Strongylocentrotus purpuratus,50
+16 8 2013 Piedra Vidal 9,2013,El Rosario,Piedra Vidal,9,Mesocentrotus franciscanus,50
+16 8 2013 Piedra Vidal 9,2013,El Rosario,Piedra Vidal,9,Strongylocentrotus purpuratus,50
+16 8 2013 Piedra Vidal 10,2013,El Rosario,Piedra Vidal,10,Strongylocentrotus purpuratus,50
+12 8 2013 Punta Baja 1,2013,El Rosario,Punta Baja,1,Mesocentrotus franciscanus,50
+12 8 2013 Punta Baja 1,2013,El Rosario,Punta Baja,1,Strongylocentrotus purpuratus,50
+12 8 2013 Punta Baja 3,2013,El Rosario,Punta Baja,3,Mesocentrotus franciscanus,50
+12 8 2013 Punta Baja 4,2013,El Rosario,Punta Baja,4,Strongylocentrotus purpuratus,50
+12 8 2013 Punta Baja 7,2013,El Rosario,Punta Baja,7,Mesocentrotus franciscanus,50
+12 8 2013 Punta Baja 7,2013,El Rosario,Punta Baja,7,Strongylocentrotus purpuratus,50
+16 8 2013 Punta Patos 1,2013,El Rosario,Punta Patos,1,Mesocentrotus franciscanus,50
+16 8 2013 Punta Patos 1,2013,El Rosario,Punta Patos,1,Strongylocentrotus purpuratus,50
+16 8 2013 Punta Patos 2,2013,El Rosario,Punta Patos,2,Mesocentrotus franciscanus,50
+16 8 2013 Punta Patos 2,2013,El Rosario,Punta Patos,2,Strongylocentrotus purpuratus,50
+16 8 2013 Punta Patos 3,2013,El Rosario,Punta Patos,3,Mesocentrotus franciscanus,50
+16 8 2013 Punta Patos 3,2013,El Rosario,Punta Patos,3,Strongylocentrotus purpuratus,50
+16 8 2013 Punta Patos 4,2013,El Rosario,Punta Patos,4,Mesocentrotus franciscanus,50
+16 8 2013 Punta Patos 4,2013,El Rosario,Punta Patos,4,Strongylocentrotus purpuratus,50
+16 8 2013 Punta Patos 5,2013,El Rosario,Punta Patos,5,Mesocentrotus franciscanus,50
+16 8 2013 Punta Patos 5,2013,El Rosario,Punta Patos,5,Strongylocentrotus purpuratus,50
+16 8 2013 Punta Patos 6,2013,El Rosario,Punta Patos,6,Mesocentrotus franciscanus,50
+16 8 2013 Punta Patos 6,2013,El Rosario,Punta Patos,6,Strongylocentrotus purpuratus,50
+16 8 2013 Punta Patos 7,2013,El Rosario,Punta Patos,7,Mesocentrotus franciscanus,50
+16 8 2013 Punta Patos 7,2013,El Rosario,Punta Patos,7,Strongylocentrotus purpuratus,50
+16 8 2013 Punta Patos 8,2013,El Rosario,Punta Patos,8,Mesocentrotus franciscanus,50
+16 8 2013 Punta Patos 8,2013,El Rosario,Punta Patos,8,Strongylocentrotus purpuratus,50
+16 8 2013 Punta Patos 9,2013,El Rosario,Punta Patos,9,Mesocentrotus franciscanus,50
+16 8 2013 Punta Patos 9,2013,El Rosario,Punta Patos,9,Strongylocentrotus purpuratus,50
+16 8 2013 Punta Patos 10,2013,El Rosario,Punta Patos,10,Mesocentrotus franciscanus,50
+16 8 2013 Punta Patos 10,2013,El Rosario,Punta Patos,10,Strongylocentrotus purpuratus,50
+15 8 2013 Sportfish 2,2013,El Rosario,Sportfish,2,Strongylocentrotus purpuratus,50
+15 8 2013 Sportfish 4,2013,El Rosario,Sportfish,4,Strongylocentrotus purpuratus,50
+15 8 2013 Sportfish 6,2013,El Rosario,Sportfish,6,Strongylocentrotus purpuratus,50
+15 8 2013 Sportfish 9,2013,El Rosario,Sportfish,9,Mesocentrotus franciscanus,50
+15 8 2013 Sportfish 9,2013,El Rosario,Sportfish,9,Strongylocentrotus purpuratus,50
+15 8 2013 Sportfish 10,2013,El Rosario,Sportfish,10,Strongylocentrotus purpuratus,50
+23 7 2015 La Dulce 8,2015,Isla Natividad,La Dulce,8,Megastraea undosa,50
+23 7 2015 La Dulce 10,2015,Isla Natividad,La Dulce,10,Megastraea undosa,50
+30 7 2015 La Dulce 18,2015,Isla Natividad,La Dulce,18,Centrostephanus coronatus,50
+24 7 2015 La Guanera 6,2015,Isla Natividad,La Guanera,6,Centrostephanus coronatus,50
+24 7 2015 La Guanera 7,2015,Isla Natividad,La Guanera,7,Centrostephanus coronatus,50
+24 7 2015 La Guanera 8,2015,Isla Natividad,La Guanera,8,Centrostephanus coronatus,50
+25 7 2015 Punta Prieta 1,2015,Isla Natividad,Punta Prieta,1,Centrostephanus coronatus,50
+25 7 2015 Punta Prieta 2,2015,Isla Natividad,Punta Prieta,2,Centrostephanus coronatus,50
+25 7 2015 Punta Prieta 3,2015,Isla Natividad,Punta Prieta,3,Megastraea undosa,50
+25 7 2015 Punta Prieta 4,2015,Isla Natividad,Punta Prieta,4,Centrostephanus coronatus,50
+25 7 2015 Punta Prieta 9,2015,Isla Natividad,Punta Prieta,9,Megastraea undosa,50
+25 7 2015 Punta Prieta 11,2015,Isla Natividad,Punta Prieta,11,Megastraea undosa,50
+25 7 2015 Punta Prieta 15,2015,Isla Natividad,Punta Prieta,15,Centrostephanus coronatus,50
+25 7 2015 Punta Prieta 15,2015,Isla Natividad,Punta Prieta,15,Muricea californica,50
+29 7 2016 Caracolera 1,2016,El Rosario,Caracolera,1,Strongylocentrotus purpuratus,50
+29 7 2016 Caracolera 2,2016,El Rosario,Caracolera,2,Strongylocentrotus purpuratus,50
+29 7 2016 Chinatown 14,2016,El Rosario,Chinatown,14,Neobernaya spadicea,50
+29 7 2016 Chinatown 17,2016,El Rosario,Chinatown,17,Kelletia kelletii,50
+27 7 2016 La Lobera 18,2016,El Rosario,La Lobera,18,Megastraea turbanica,50
+2 8 2016 Lazaro 10,2016,El Rosario,Lazaro,10,Strongylocentrotus purpuratus,50
+1 8 2016 La Dulce 1,2016,Isla Natividad,La Dulce,1,Megastraea undosa,50
+3 8 2016 La Dulce 3,2016,Isla Natividad,La Dulce,3,Megastraea undosa,50
+5 8 2016 La Plana / Las Cuevas 5,2016,Isla Natividad,La Plana/Las Cuevas,5,Megastraea undosa,50
+5 8 2016 La Plana / Las Cuevas 16,2016,Isla Natividad,La Plana/Las Cuevas,16,Megastraea undosa,50
+30 7 2016 Punta Prieta 11,2016,Isla Natividad,Punta Prieta,11,Centrostephanus coronatus,50
+30 7 2016 Punta Prieta 12,2016,Isla Natividad,Punta Prieta,12,Centrostephanus coronatus,50
+24 7 2017 Caracolera 4,2017,El Rosario,Caracolera,4,Strongylocentrotus purpuratus,50
+21 7 2017 Punta Patos 17,2017,El Rosario,Punta Patos,17,Megastraea undosa,50
+20 8 2018 Caracolera 3,2018,El Rosario,Caracolera,3,Mesocentrotus franciscanus,50
+20 8 2018 Caracolera 4,2018,El Rosario,Caracolera,4,Megastraea undosa,50
+17 8 2018 Caracolera 7,2018,El Rosario,Caracolera,7,Megastraea undosa,50
+20 8 2018 Caracolera 9,2018,El Rosario,Caracolera,9,Centrostephanus coronatus,50
+20 8 2018 Caracolera 9,2018,El Rosario,Caracolera,9,Megastraea turbanica,50
+20 8 2018 Caracolera 10,2018,El Rosario,Caracolera,10,Megastraea turbanica,50
+20 8 2018 Caracolera 13,2018,El Rosario,Caracolera,13,Mesocentrotus franciscanus,50
+20 8 2018 Caracolera 14,2018,El Rosario,Caracolera,14,Megastraea undosa,50
+17 8 2018 Caracolera 15,2018,El Rosario,Caracolera,15,Megastraea turbanica,50
+20 8 2018 Caracolera 16,2018,El Rosario,Caracolera,16,Megastraea turbanica,50
+20 8 2018 Caracolera 16,2018,El Rosario,Caracolera,16,Strongylocentrotus purpuratus,50
+20 8 2018 Caracolera 17,2018,El Rosario,Caracolera,17,Megastraea turbanica,50
+20 8 2018 Caracolera 17,2018,El Rosario,Caracolera,17,Strongylocentrotus purpuratus,50
+16 8 2018 Chinatown 2,2018,El Rosario,Chinatown,2,Megastraea turbanica,50
+16 8 2018 Chinatown 7,2018,El Rosario,Chinatown,7,Megastraea undosa,50
+20 8 2018 Chinatown 8,2018,El Rosario,Chinatown,8,Megastraea undosa,50
+20 8 2018 Chinatown 12,2018,El Rosario,Chinatown,12,Megastraea undosa,50
+20 8 2018 Chinatown 14,2018,El Rosario,Chinatown,14,Megastraea undosa,50
+16 8 2018 Chinatown 15,2018,El Rosario,Chinatown,15,Megastraea turbanica,50
+20 8 2018 Chinatown 16,2018,El Rosario,Chinatown,16,Megastraea undosa,50
+15 8 2018 La Lobera 1,2018,El Rosario,La Lobera,1,Megastraea turbanica,50
+16 8 2018 La Lobera 2,2018,El Rosario,La Lobera,2,Megastraea turbanica,50
+15 8 2018 La Lobera 5,2018,El Rosario,La Lobera,5,Megastraea undosa,50
+16 8 2018 La Lobera 6,2018,El Rosario,La Lobera,6,Megastraea undosa,50
+16 8 2018 La Lobera 8,2018,El Rosario,La Lobera,8,Megastraea undosa,50
+15 8 2018 La Lobera 11,2018,El Rosario,La Lobera,11,Megastraea undosa,50
+15 8 2018 La Lobera 13,2018,El Rosario,La Lobera,13,Megastraea undosa,50
+15 8 2018 La Lobera 15,2018,El Rosario,La Lobera,15,Megastraea undosa,50
+15 8 2018 La Lobera 17,2018,El Rosario,La Lobera,17,Megastraea turbanica,50
+16 8 2018 La Lobera 18,2018,El Rosario,La Lobera,18,Megastraea turbanica,50
+22 8 2018 Lazaro 4,2018,El Rosario,Lazaro,4,Strongylocentrotus purpuratus,50
+22 8 2018 Lazaro 6,2018,El Rosario,Lazaro,6,Strongylocentrotus purpuratus,50
+21 8 2018 Lazaro 7,2018,El Rosario,Lazaro,7,Strongylocentrotus purpuratus,50
+22 8 2018 Lazaro 12,2018,El Rosario,Lazaro,12,Megastraea turbanica,50
+22 8 2018 Lazaro 12,2018,El Rosario,Lazaro,12,Strongylocentrotus purpuratus,50
+21 8 2018 Lazaro 15,2018,El Rosario,Lazaro,15,Strongylocentrotus purpuratus,50
+21 8 2018 Picacho 3,2018,El Rosario,Picacho,3,Centrostephanus coronatus,50
+21 8 2018 Picacho 4,2018,El Rosario,Picacho,4,Megastraea undosa,50
+21 8 2018 Picacho 4,2018,El Rosario,Picacho,4,Mesocentrotus franciscanus,50
+21 8 2018 Picacho 4,2018,El Rosario,Picacho,4,Strongylocentrotus purpuratus,50
+21 8 2018 Picacho 6,2018,El Rosario,Picacho,6,Strongylocentrotus purpuratus,50
+21 8 2018 Picacho 8,2018,El Rosario,Picacho,8,Megastraea turbanica,50
+21 8 2018 Picacho 8,2018,El Rosario,Picacho,8,Strongylocentrotus purpuratus,50
+21 8 2018 Picacho 10,2018,El Rosario,Picacho,10,Strongylocentrotus purpuratus,50
+22 8 2018 Picacho 11,2018,El Rosario,Picacho,11,Mesocentrotus franciscanus,50
+22 8 2018 Picacho 12,2018,El Rosario,Picacho,12,Megastraea undosa,50
+22 8 2018 Picacho 12,2018,El Rosario,Picacho,12,Mesocentrotus franciscanus,50
+22 8 2018 Picacho 12,2018,El Rosario,Picacho,12,Strongylocentrotus purpuratus,50
+22 8 2018 Picacho 14,2018,El Rosario,Picacho,14,Strongylocentrotus purpuratus,50
+14 8 2018 Piedra Vidal 2,2018,El Rosario,Piedra Vidal,2,Megastraea undosa,50
+14 8 2018 Piedra Vidal 4,2018,El Rosario,Piedra Vidal,4,Megastraea undosa,50
+14 8 2018 Piedra Vidal 11,2018,El Rosario,Piedra Vidal,11,Megastraea undosa,50
+14 8 2018 Piedra Vidal 18,2018,El Rosario,Piedra Vidal,18,Megastraea undosa,50
+14 8 2018 Punta Patos 2,2018,El Rosario,Punta Patos,2,Megastraea undosa,50
+14 8 2018 Punta Patos 5,2018,El Rosario,Punta Patos,5,Megastraea turbanica,50
+15 8 2018 Punta Patos 6,2018,El Rosario,Punta Patos,6,Megastraea turbanica,50
+15 8 2018 Punta Patos 8,2018,El Rosario,Punta Patos,8,Megastraea undosa,50
+14 8 2018 Punta Patos 9,2018,El Rosario,Punta Patos,9,Megastraea undosa,50
+14 8 2018 Punta Patos 15,2018,El Rosario,Punta Patos,15,Megastraea undosa,50
+15 8 2018 Punta Patos 16,2018,El Rosario,Punta Patos,16,Megastraea undosa,50
+14 8 2018 Punta Patos 17,2018,El Rosario,Punta Patos,17,Megastraea undosa,50
+15 8 2018 Punta Patos 18,2018,El Rosario,Punta Patos,18,Megastraea undosa,50
+15 8 2018 Sportfish 8,2018,El Rosario,Sportfish,8,Megastraea undosa,50
+15 8 2018 Sportfish 10,2018,El Rosario,Sportfish,10,Megastraea undosa,50
+15 8 2018 Sportfish 12,2018,El Rosario,Sportfish,12,Megastraea turbanica,50
+18 7 2018 La Dulce 11,2018,Isla Natividad,La Dulce,11,Megastraea undosa,50
+18 7 2018 La Dulce 13,2018,Isla Natividad,La Dulce,13,Megastraea undosa,50
+18 7 2018 La Dulce 17,2018,Isla Natividad,La Dulce,17,Megastraea turbanica,50
+18 7 2018 La Dulce 18,2018,Isla Natividad,La Dulce,18,Megastraea turbanica,50
+19 7 2018 La Guanera 1,2018,Isla Natividad,La Guanera,1,Megastraea undosa,50
+19 7 2018 La Guanera 2,2018,Isla Natividad,La Guanera,2,Megastraea undosa,50
+19 7 2018 La Guanera 4,2018,Isla Natividad,La Guanera,4,Megastraea undosa,50
+19 7 2018 La Guanera 6,2018,Isla Natividad,La Guanera,6,Megastraea undosa,50
+17 7 2018 La Plana / Las Cuevas 1,2018,Isla Natividad,La Plana/Las Cuevas,1,Megastraea undosa,50
+17 7 2018 La Plana / Las Cuevas 2,2018,Isla Natividad,La Plana/Las Cuevas,2,Megastraea undosa,50
+17 7 2018 La Plana / Las Cuevas 3,2018,Isla Natividad,La Plana/Las Cuevas,3,Megastraea undosa,50
+17 7 2018 La Plana / Las Cuevas 4,2018,Isla Natividad,La Plana/Las Cuevas,4,Megastraea undosa,50
+17 7 2018 La Plana / Las Cuevas 15,2018,Isla Natividad,La Plana/Las Cuevas,15,Megastraea undosa,50
+17 7 2018 La Plana / Las Cuevas 16,2018,Isla Natividad,La Plana/Las Cuevas,16,Megastraea undosa,50
+17 7 2018 La Plana / Las Cuevas 17,2018,Isla Natividad,La Plana/Las Cuevas,17,Megastraea undosa,50
+17 7 2018 La Plana / Las Cuevas 18,2018,Isla Natividad,La Plana/Las Cuevas,18,Megastraea undosa,50
+20 7 2018 Punta Prieta 3,2018,Isla Natividad,Punta Prieta,3,Megastraea turbanica,50
+20 7 2018 Punta Prieta 5,2018,Isla Natividad,Punta Prieta,5,Megastraea undosa,50
+4 8 2019 Caracolera 4,2019,El Rosario,Caracolera,4,Megastraea undosa,50
+4 8 2019 Caracolera 6,2019,El Rosario,Caracolera,6,Megastraea turbanica,50
+4 8 2019 Caracolera 7,2019,El Rosario,Caracolera,7,Megastraea undosa,50
+4 8 2019 Caracolera 8,2019,El Rosario,Caracolera,8,Megastraea undosa,50
+4 8 2019 Caracolera 9,2019,El Rosario,Caracolera,9,Megastraea undosa,50
+4 8 2019 Caracolera 10,2019,El Rosario,Caracolera,10,Megastraea undosa,50
+4 8 2019 Caracolera 11,2019,El Rosario,Caracolera,11,Megastraea turbanica,50
+4 8 2019 Caracolera 13,2019,El Rosario,Caracolera,13,Megastraea undosa,50
+4 8 2019 Caracolera 14,2019,El Rosario,Caracolera,14,Megastraea undosa,50
+4 8 2019 Caracolera 16,2019,El Rosario,Caracolera,16,Megastraea undosa,50
+4 8 2019 Caracolera 18,2019,El Rosario,Caracolera,18,Megastraea undosa,50
+5 8 2019 La Lobera 3,2019,El Rosario,La Lobera,3,Megastraea undosa,50
+5 8 2019 La Lobera 4,2019,El Rosario,La Lobera,4,Megastraea undosa,50
+5 8 2019 La Lobera 5,2019,El Rosario,La Lobera,5,Megastraea turbanica,50
+5 8 2019 La Lobera 6,2019,El Rosario,La Lobera,6,Megastraea turbanica,50
+5 8 2019 La Lobera 8,2019,El Rosario,La Lobera,8,Megastraea undosa,50
+5 8 2019 La Lobera 10,2019,El Rosario,La Lobera,10,Megastraea undosa,50
+5 8 2019 La Lobera 11,2019,El Rosario,La Lobera,11,Megastraea undosa,50
+5 8 2019 La Lobera 12,2019,El Rosario,La Lobera,12,Megastraea turbanica,50
+5 8 2019 La Lobera 13,2019,El Rosario,La Lobera,13,Megastraea undosa,50
+5 8 2019 La Lobera 14,2019,El Rosario,La Lobera,14,Megastraea undosa,50
+5 8 2019 La Lobera 16,2019,El Rosario,La Lobera,16,Megastraea undosa,50
+5 8 2019 La Lobera 17,2019,El Rosario,La Lobera,17,Megastraea undosa,50
+5 8 2019 La Lobera 18,2019,El Rosario,La Lobera,18,Megastraea undosa,50
+5 8 2019 La Lobera 20,2019,El Rosario,La Lobera,20,Megastraea undosa,50
+1 8 2019 Lazaro 6,2019,El Rosario,Lazaro,6,Strongylocentrotus purpuratus,50
+3 8 2019 Picacho 2,2019,El Rosario,Picacho,2,Mesocentrotus franciscanus,50
+3 8 2019 Picacho 2,2019,El Rosario,Picacho,2,Strongylocentrotus purpuratus,50
+3 8 2019 Picacho 4,2019,El Rosario,Picacho,4,Strongylocentrotus purpuratus,50
+3 8 2019 Picacho 6,2019,El Rosario,Picacho,6,Megastraea undosa,50
+3 8 2019 Picacho 6,2019,El Rosario,Picacho,6,Strongylocentrotus purpuratus,50
+3 8 2019 Picacho 7,2019,El Rosario,Picacho,7,Megastraea undosa,50
+3 8 2019 Picacho 10,2019,El Rosario,Picacho,10,Megastraea undosa,50
+3 8 2019 Picacho 15,2019,El Rosario,Picacho,15,Strongylocentrotus purpuratus,50
+3 8 2019 Picacho 17,2019,El Rosario,Picacho,17,Strongylocentrotus purpuratus,50
+6 8 2019 Piedra Vidal 9,2019,El Rosario,Piedra Vidal,9,Megastraea undosa,50
+5 8 2019 Punta Patos 2,2019,El Rosario,Punta Patos,2,Megastraea undosa,50
+5 8 2019 Punta Patos 5,2019,El Rosario,Punta Patos,5,Megastraea turbanica,50
+5 8 2019 Punta Patos 6,2019,El Rosario,Punta Patos,6,Megastraea turbanica,50
+5 8 2019 Punta Patos 8,2019,El Rosario,Punta Patos,8,Megastraea undosa,50
+5 8 2019 Punta Patos 10,2019,El Rosario,Punta Patos,10,Megastraea turbanica,50
+5 8 2019 Punta Patos 12,2019,El Rosario,Punta Patos,12,Megastraea undosa,50
+5 8 2019 Punta Patos 14,2019,El Rosario,Punta Patos,14,Megastraea undosa,50
+5 8 2019 Punta Patos 16,2019,El Rosario,Punta Patos,16,Megastraea undosa,50
+5 8 2019 Punta Patos 20,2019,El Rosario,Punta Patos,20,Megastraea undosa,50
+20 7 2019 La Dulce 12,2019,Isla Natividad,La Dulce,12,Megastraea undosa,50
+16 7 2019 La Guanera 12,2019,Isla Natividad,La Guanera,12,Megastraea undosa,50
+19 7 2019 La Plana / Las Cuevas 6,2019,Isla Natividad,La Plana/Las Cuevas,6,Megastraea undosa,50
+17 7 2019 Punta Prieta 1,2019,Isla Natividad,Punta Prieta,1,Centrostephanus coronatus,50
+5 8 2020 Caracolera 2,2020,El Rosario,Caracolera,2,Megastraea undosa,50
+5 8 2020 Caracolera 4,2020,El Rosario,Caracolera,4,Megastraea undosa,50
+5 8 2020 Caracolera 8,2020,El Rosario,Caracolera,8,Megastraea undosa,50
+5 8 2020 Caracolera 12,2020,El Rosario,Caracolera,12,Megastraea undosa,50
+5 8 2020 Caracolera 14,2020,El Rosario,Caracolera,14,Megastraea undosa,50
+5 8 2020 Caracolera 16,2020,El Rosario,Caracolera,16,Megastraea turbanica,50
+29 7 2020 Chinatown 1,2020,El Rosario,Chinatown,1,Megastraea undosa,50
+29 7 2020 Chinatown 2,2020,El Rosario,Chinatown,2,Kelletia kelletii,50
+29 7 2020 Chinatown 2,2020,El Rosario,Chinatown,2,Megastraea undosa,50
+29 7 2020 Chinatown 3,2020,El Rosario,Chinatown,3,Megastraea undosa,50
+29 7 2020 Chinatown 11,2020,El Rosario,Chinatown,11,Megastraea undosa,50
+29 7 2020 Chinatown 12,2020,El Rosario,Chinatown,12,Megastraea undosa,50
+29 7 2020 Chinatown 13,2020,El Rosario,Chinatown,13,Megastraea undosa,50
+29 7 2020 Chinatown 14,2020,El Rosario,Chinatown,14,Megastraea undosa,50
+29 7 2020 Chinatown 15,2020,El Rosario,Chinatown,15,Megastraea undosa,50
+29 7 2020 Chinatown 16,2020,El Rosario,Chinatown,16,Megastraea undosa,50
+27 7 2020 La Lobera 1,2020,El Rosario,La Lobera,1,Megastraea undosa,50
+27 7 2020 La Lobera 8,2020,El Rosario,La Lobera,8,Megastraea turbanica,50
+27 7 2020 La Lobera 9,2020,El Rosario,La Lobera,9,Megastraea undosa,50
+27 7 2020 La Lobera 10,2020,El Rosario,La Lobera,10,Megastraea undosa,50
+27 7 2020 La Lobera 11,2020,El Rosario,La Lobera,11,Megastraea undosa,50
+27 7 2020 La Lobera 13,2020,El Rosario,La Lobera,13,Megastraea undosa,50
+27 7 2020 La Lobera 15,2020,El Rosario,La Lobera,15,Megastraea undosa,50
+27 7 2020 La Lobera 16,2020,El Rosario,La Lobera,16,Megastraea undosa,50
+28 7 2020 Lazaro 10,2020,El Rosario,Lazaro,10,Strongylocentrotus purpuratus,50
+28 7 2020 Lazaro 12,2020,El Rosario,Lazaro,12,Strongylocentrotus purpuratus,50
+28 7 2020 Lazaro 14,2020,El Rosario,Lazaro,14,Strongylocentrotus purpuratus,50
+28 7 2020 Lazaro 16,2020,El Rosario,Lazaro,16,Strongylocentrotus purpuratus,50
+31 7 2020 Picacho 1,2020,El Rosario,Picacho,1,Strongylocentrotus purpuratus,50
+31 7 2020 Picacho 2,2020,El Rosario,Picacho,2,Strongylocentrotus purpuratus,50
+31 7 2020 Picacho 3,2020,El Rosario,Picacho,3,Megastraea undosa,50
+31 7 2020 Picacho 4,2020,El Rosario,Picacho,4,Megastraea undosa,50
+3 8 2020 Picacho 9,2020,El Rosario,Picacho,9,Mesocentrotus franciscanus,50
+3 8 2020 Picacho 10,2020,El Rosario,Picacho,10,Megastraea undosa,50
+3 8 2020 Picacho 13,2020,El Rosario,Picacho,13,Strongylocentrotus purpuratus,50
+3 8 2020 Picacho 15,2020,El Rosario,Picacho,15,Mesocentrotus franciscanus,50
+3 8 2020 Picacho 15,2020,El Rosario,Picacho,15,Strongylocentrotus purpuratus,50
+3 8 2020 Picacho 16,2020,El Rosario,Picacho,16,Kelletia kelletii,50
+3 8 2020 Piedra Vidal 2,2020,El Rosario,Piedra Vidal,2,Megastraea undosa,50
+3 8 2020 Piedra Vidal 5,2020,El Rosario,Piedra Vidal,5,Megastraea undosa,50
+3 8 2020 Piedra Vidal 6,2020,El Rosario,Piedra Vidal,6,Megastraea undosa,50
+3 8 2020 Piedra Vidal 7,2020,El Rosario,Piedra Vidal,7,Megastraea undosa,50
+31 7 2020 Piedra Vidal 9,2020,El Rosario,Piedra Vidal,9,Megastraea undosa,50
+31 7 2020 Piedra Vidal 11,2020,El Rosario,Piedra Vidal,11,Megastraea undosa,50
+31 7 2020 Piedra Vidal 12,2020,El Rosario,Piedra Vidal,12,Megastraea undosa,50
+31 7 2020 Piedra Vidal 14,2020,El Rosario,Piedra Vidal,14,Megastraea undosa,50
+31 7 2020 Piedra Vidal 15,2020,El Rosario,Piedra Vidal,15,Megastraea undosa,50
+31 7 2020 Piedra Vidal 16,2020,El Rosario,Piedra Vidal,16,Megastraea undosa,50
+4 8 2020 Punta Patos 2,2020,El Rosario,Punta Patos,2,Megastraea undosa,50
+4 8 2020 Punta Patos 4,2020,El Rosario,Punta Patos,4,Megastraea undosa,50
+4 8 2020 Punta Patos 9,2020,El Rosario,Punta Patos,9,Megastraea undosa,50
+4 8 2020 Punta Patos 10,2020,El Rosario,Punta Patos,10,Megastraea undosa,50
+4 8 2020 Punta Patos 11,2020,El Rosario,Punta Patos,11,Megastraea undosa,50
+4 8 2020 Punta Patos 12,2020,El Rosario,Punta Patos,12,Megastraea undosa,50
+4 8 2020 Punta Patos 13,2020,El Rosario,Punta Patos,13,Megastraea undosa,50
+4 8 2020 Punta Patos 14,2020,El Rosario,Punta Patos,14,Megastraea undosa,50
+4 8 2020 Punta Patos 15,2020,El Rosario,Punta Patos,15,Megastraea undosa,50
+4 8 2020 Punta Patos 16,2020,El Rosario,Punta Patos,16,Megastraea undosa,50
+30 7 2020 Sportfish 1,2020,El Rosario,Sportfish,1,Megastraea undosa,50
+30 7 2020 Sportfish 2,2020,El Rosario,Sportfish,2,Megastraea undosa,50
+30 7 2020 Sportfish 16,2020,El Rosario,Sportfish,16,Megastraea turbanica,50
+24 7 2020 La Dulce 2,2020,Isla Natividad,La Dulce,2,Megastraea undosa,50
+24 7 2020 La Dulce 5,2020,Isla Natividad,La Dulce,5,Megastraea undosa,50
+24 7 2020 La Dulce 6,2020,Isla Natividad,La Dulce,6,Megastraea undosa,50
+24 7 2020 La Dulce 8,2020,Isla Natividad,La Dulce,8,Megastraea undosa,50
+25 7 2020 La Dulce 11,2020,Isla Natividad,La Dulce,11,Megastraea undosa,50
+25 7 2020 La Dulce 13,2020,Isla Natividad,La Dulce,13,Megastraea turbanica,50
+25 7 2020 La Dulce 14,2020,Isla Natividad,La Dulce,14,Megastraea turbanica,50
+25 7 2020 La Dulce 16,2020,Isla Natividad,La Dulce,16,Megastraea undosa,50
+25 7 2020 La Dulce 17,2020,Isla Natividad,La Dulce,17,Megastraea undosa,50
+25 7 2020 La Dulce 18,2020,Isla Natividad,La Dulce,18,Megastraea undosa,50
+26 7 2020 La Guanera 6,2020,Isla Natividad,La Guanera,6,Megastraea undosa,50
+26 7 2020 La Guanera 7,2020,Isla Natividad,La Guanera,7,Megastraea undosa,50
+26 7 2020 La Guanera 8,2020,Isla Natividad,La Guanera,8,Megastraea undosa,50
+26 7 2020 La Guanera 11,2020,Isla Natividad,La Guanera,11,Megastraea undosa,50
+2 8 2020 La Guanera 17,2020,Isla Natividad,La Guanera,17,Centrostephanus coronatus,50
+2 8 2020 La Guanera 17,2020,Isla Natividad,La Guanera,17,Megastraea undosa,50
+2 8 2020 La Guanera 18,2020,Isla Natividad,La Guanera,18,Megastraea undosa,50
+22 7 2020 La Plana/Las Cuevas 1,2020,Isla Natividad,La Plana/Las Cuevas,1,Megastraea undosa,50
+22 7 2020 La Plana/Las Cuevas 4,2020,Isla Natividad,La Plana/Las Cuevas,4,Megastraea undosa,50
+22 7 2020 La Plana/Las Cuevas 5,2020,Isla Natividad,La Plana/Las Cuevas,5,Megastraea undosa,50
+22 7 2020 La Plana/Las Cuevas 9,2020,Isla Natividad,La Plana/Las Cuevas,9,Megastraea undosa,50
+22 7 2020 La Plana/Las Cuevas 10,2020,Isla Natividad,La Plana/Las Cuevas,10,Megastraea undosa,50
+23 7 2020 La Plana/Las Cuevas 18,2020,Isla Natividad,La Plana/Las Cuevas,18,Megastraea undosa,50
+2 7 2020 Punta Prieta 5,2020,Isla Natividad,Punta Prieta,5,Centrostephanus coronatus,50
+2 7 2020 Punta Prieta 6,2020,Isla Natividad,Punta Prieta,6,Centrostephanus coronatus,50
+6 7 2020 Punta Prieta 9,2020,Isla Natividad,Punta Prieta,9,Megastraea turbanica,50
+6 7 2020 Punta Prieta 13,2020,Isla Natividad,Punta Prieta,13,Centrostephanus coronatus,50
+6 8 2021 Caracolera 2,2021,El Rosario,Caracolera,2,Megastraea undosa,50
+6 8 2021 Caracolera 4,2021,El Rosario,Caracolera,4,Megastraea undosa,50
+6 8 2021 Caracolera 7,2021,El Rosario,Caracolera,7,Megastraea turbanica,50
+6 8 2021 Caracolera 8,2021,El Rosario,Caracolera,8,Megastraea turbanica,50
+6 8 2021 Caracolera 16,2021,El Rosario,Caracolera,16,Megastraea undosa,50
+6 8 2021 Caracolera 16,2021,El Rosario,Caracolera,16,Neobernaya spadicea,50
+12 8 2021 Chinatown 10,2021,El Rosario,Chinatown,10,Megastraea undosa,50
+12 8 2021 Chinatown 14,2021,El Rosario,Chinatown,14,Megastraea undosa,50
+12 8 2021 Chinatown 16,2021,El Rosario,Chinatown,16,Panulirus interruptus,50
+7 8 2021 la lobera 1,2021,El Rosario,La Lobera,1,Megastraea turbanica,50
+7 8 2021 la lobera 3,2021,El Rosario,La Lobera,3,Muricea californica,50
+7 8 2021 la lobera 6,2021,El Rosario,La Lobera,6,Megastraea undosa,50
+7 8 2021 la lobera 7,2021,El Rosario,La Lobera,7,Megastraea undosa,50
+7 8 2021 la lobera 8,2021,El Rosario,La Lobera,8,Megastraea undosa,50
+7 8 2021 la lobera 9,2021,El Rosario,La Lobera,9,Megastraea undosa,50
+7 8 2021 la lobera 9,2021,El Rosario,La Lobera,9,Mesocentrotus franciscanus,50
+7 8 2021 la lobera 12,2021,El Rosario,La Lobera,12,Megastraea undosa,50
+7 8 2021 la lobera 14,2021,El Rosario,La Lobera,14,Megastraea undosa,50
+7 8 2021 la lobera 15,2021,El Rosario,La Lobera,15,Megastraea undosa,50
+7 8 2021 la lobera 15,2021,El Rosario,La Lobera,15,Mesocentrotus franciscanus,50
+7 8 2021 la lobera 16,2021,El Rosario,La Lobera,16,Megastraea undosa,50
+7 8 2021 la lobera 16,2021,El Rosario,La Lobera,16,Mesocentrotus franciscanus,50
+4 8 2021 Lazaro 2,2021,El Rosario,Lazaro,2,Strongylocentrotus purpuratus,50
+4 8 2021 Lazaro 6,2021,El Rosario,Lazaro,6,Strongylocentrotus purpuratus,50
+4 8 2021 Lazaro 7,2021,El Rosario,Lazaro,7,Megastraea undosa,50
+4 8 2021 Lazaro 7,2021,El Rosario,Lazaro,7,Strongylocentrotus purpuratus,50
+4 8 2021 Lazaro 8,2021,El Rosario,Lazaro,8,Strongylocentrotus purpuratus,50
+4 8 2021 Lazaro 10,2021,El Rosario,Lazaro,10,Strongylocentrotus purpuratus,50
+4 8 2021 Lazaro 11,2021,El Rosario,Lazaro,11,Strongylocentrotus purpuratus,50
+4 8 2021 Lazaro 12,2021,El Rosario,Lazaro,12,Strongylocentrotus purpuratus,50
+4 8 2021 Lazaro 14,2021,El Rosario,Lazaro,14,Strongylocentrotus purpuratus,50
+4 8 2021 Lazaro 16,2021,El Rosario,Lazaro,16,Strongylocentrotus purpuratus,50
+5 8 2021 Picacho 1,2021,El Rosario,Picacho,1,Megastraea undosa,50
+5 8 2021 Picacho 1,2021,El Rosario,Picacho,1,Strongylocentrotus purpuratus,50
+5 8 2021 Picacho 3,2021,El Rosario,Picacho,3,Megastraea undosa,50
+5 8 2021 Picacho 6,2021,El Rosario,Picacho,6,Megastraea undosa,50
+5 8 2021 Picacho 9,2021,El Rosario,Picacho,9,Megastraea undosa,50
+5 8 2021 Picacho 10,2021,El Rosario,Picacho,10,Megastraea undosa,50
+5 8 2021 Picacho 10,2021,El Rosario,Picacho,10,Strongylocentrotus purpuratus,50
+5 8 2021 Picacho 16,2021,El Rosario,Picacho,16,Mesocentrotus franciscanus,50
+5 8 2021 Picacho 16,2021,El Rosario,Picacho,16,Strongylocentrotus purpuratus,50
+10 8 2021 Piedra Vidal 3,2021,El Rosario,Piedra Vidal,3,Megastraea undosa,50
+10 8 2021 Piedra Vidal 4,2021,El Rosario,Piedra Vidal,4,Megastraea undosa,50
+10 8 2021 Piedra Vidal 6,2021,El Rosario,Piedra Vidal,6,Megastraea turbanica,50
+10 8 2021 Piedra Vidal 7,2021,El Rosario,Piedra Vidal,7,Megastraea turbanica,50
+10 8 2021 Piedra Vidal 8,2021,El Rosario,Piedra Vidal,8,Megastraea turbanica,50
+10 8 2021 Piedra Vidal 11,2021,El Rosario,Piedra Vidal,11,Megastraea undosa,50
+10 8 2021 Piedra Vidal 11,2021,El Rosario,Piedra Vidal,11,Mesocentrotus franciscanus,50
+10 8 2021 Piedra Vidal 12,2021,El Rosario,Piedra Vidal,12,Megastraea undosa,50
+10 8 2021 Piedra Vidal 16,2021,El Rosario,Piedra Vidal,16,Megastraea undosa,50
+11 8 2021 Punta Patos 1,2021,El Rosario,Punta Patos,1,Megastraea undosa,50
+11 8 2021 Punta Patos 2,2021,El Rosario,Punta Patos,2,Megastraea undosa,50
+11 8 2021 Punta Patos 3,2021,El Rosario,Punta Patos,3,Megastraea undosa,50
+11 8 2021 Punta Patos 4,2021,El Rosario,Punta Patos,4,Megastraea undosa,50
+11 8 2021 Punta Patos 6,2021,El Rosario,Punta Patos,6,Megastraea undosa,50
+11 8 2021 Punta Patos 8,2021,El Rosario,Punta Patos,8,Megastraea turbanica,50
+11 8 2021 Punta Patos 11,2021,El Rosario,Punta Patos,11,Megastraea turbanica,50
+11 8 2021 Punta Patos 12,2021,El Rosario,Punta Patos,12,Megastraea turbanica,50
+9 8 2021 Sportfish 2,2021,El Rosario,Sportfish,2,Megastraea undosa,50
+9 8 2021 Sportfish 3,2021,El Rosario,Sportfish,3,Megastraea turbanica,50
+9 8 2021 Sportfish 4,2021,El Rosario,Sportfish,4,Megastraea turbanica,50
+9 8 2021 Sportfish 6,2021,El Rosario,Sportfish,6,Megastraea undosa,50
+9 8 2021 Sportfish 7,2021,El Rosario,Sportfish,7,Megastraea turbanica,50
+9 8 2021 Sportfish 8,2021,El Rosario,Sportfish,8,Megastraea turbanica,50
+9 8 2021 Sportfish 10,2021,El Rosario,Sportfish,10,Megastraea undosa,50
+9 8 2021 Sportfish 14,2021,El Rosario,Sportfish,14,Megastraea undosa,50
+24 9 2021 Babencho 8,2021,Isla Natividad,Babencho,8,Megastraea undosa,50
+24 9 2021 Babencho 10,2021,Isla Natividad,Babencho,10,Megastraea undosa,50
+24 9 2021 Babencho 14,2021,Isla Natividad,Babencho,14,Megastraea undosa,50
+10 9 2021 La Dulce 1,2021,Isla Natividad,La Dulce,1,Megastraea turbanica,50
+10 9 2021 La Dulce 1,2021,Isla Natividad,La Dulce,1,Megastraea undosa,50
+10 9 2021 La Dulce 2,2021,Isla Natividad,La Dulce,2,Megastraea undosa,50
+10 9 2021 La Dulce 3,2021,Isla Natividad,La Dulce,3,Megastraea undosa,50
+10 9 2021 La Dulce 4,2021,Isla Natividad,La Dulce,4,Megastraea undosa,50
+10 9 2021 La Dulce 5,2021,Isla Natividad,La Dulce,5,Megastraea undosa,50
+10 9 2021 La Dulce 6,2021,Isla Natividad,La Dulce,6,Megastraea undosa,50
+10 9 2021 La Dulce 8,2021,Isla Natividad,La Dulce,8,Megastraea undosa,50
+10 9 2021 La Dulce 9,2021,Isla Natividad,La Dulce,9,Megastraea undosa,50
+10 9 2021 La Dulce 10,2021,Isla Natividad,La Dulce,10,Megastraea undosa,50
+10 9 2021 La Dulce 11,2021,Isla Natividad,La Dulce,11,Megastraea undosa,50
+10 9 2021 La Dulce 12,2021,Isla Natividad,La Dulce,12,Megastraea undosa,50
+10 9 2021 La Dulce 13,2021,Isla Natividad,La Dulce,13,Megastraea undosa,50
+10 9 2021 La Dulce 14,2021,Isla Natividad,La Dulce,14,Megastraea undosa,50
+10 9 2021 La Dulce 16,2021,Isla Natividad,La Dulce,16,Megastraea undosa,50
+10 9 2021 La Dulce 17,2021,Isla Natividad,La Dulce,17,Megastraea turbanica,50
+10 9 2021 La Dulce 17,2021,Isla Natividad,La Dulce,17,Megastraea undosa,50
+8 9 2021 La Guanera 3,2021,Isla Natividad,La Guanera,3,Megastraea undosa,50
+8 9 2021 La Guanera 6,2021,Isla Natividad,La Guanera,6,Megastraea undosa,50
+8 9 2021 La Guanera 15,2021,Isla Natividad,La Guanera,15,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 1,2021,Isla Natividad,La Plana/Las Cuevas,1,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 2,2021,Isla Natividad,La Plana/Las Cuevas,2,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 3,2021,Isla Natividad,La Plana/Las Cuevas,3,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 5,2021,Isla Natividad,La Plana/Las Cuevas,5,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 8,2021,Isla Natividad,La Plana/Las Cuevas,8,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 9,2021,Isla Natividad,La Plana/Las Cuevas,9,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 10,2021,Isla Natividad,La Plana/Las Cuevas,10,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 11,2021,Isla Natividad,La Plana/Las Cuevas,11,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 12,2021,Isla Natividad,La Plana/Las Cuevas,12,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 15,2021,Isla Natividad,La Plana/Las Cuevas,15,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 16,2021,Isla Natividad,La Plana/Las Cuevas,16,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 17,2021,Isla Natividad,La Plana/Las Cuevas,17,Megastraea undosa,50
+10 9 2021 La Plana/Las Cuevas 18,2021,Isla Natividad,La Plana/Las Cuevas,18,Megastraea undosa,50
+6 9 2021 Punta Prieta 6,2021,Isla Natividad,Punta Prieta,6,Megastraea undosa,50
+6 9 2021 Punta Prieta 10,2021,Isla Natividad,Punta Prieta,10,Megastraea undosa,50
+10 8 2022 Caracolera 2,2022,El Rosario,Caracolera,2,Megastraea undosa,50
+10 8 2022 Caracolera 4,2022,El Rosario,Caracolera,4,Megastraea undosa,50
+10 8 2022 Caracolera 6,2022,El Rosario,Caracolera,6,Megastraea undosa,50
+10 8 2022 Caracolera 6,2022,El Rosario,Caracolera,6,Neobernaya spadicea,50
+10 8 2022 Caracolera 10,2022,El Rosario,Caracolera,10,Megastraea undosa,50
+10 8 2022 Caracolera 11,2022,El Rosario,Caracolera,11,Megastraea turbanica,50
+10 8 2022 Caracolera 13,2022,El Rosario,Caracolera,13,Megastraea undosa,50
+10 8 2022 Caracolera 14,2022,El Rosario,Caracolera,14,Megastraea undosa,50
+10 8 2022 Caracolera 16,2022,El Rosario,Caracolera,16,Megastraea undosa,50
+6 8 2022 Chinatown 2,2022,El Rosario,Chinatown,2,Mesocentrotus franciscanus,50
+6 8 2022 Chinatown 10,2022,El Rosario,Chinatown,10,Mesocentrotus franciscanus,50
+6 8 2022 Chinatown 14,2022,El Rosario,Chinatown,14,Megastraea undosa,50
+6 8 2022 Chinatown 14,2022,El Rosario,Chinatown,14,Mesocentrotus franciscanus,50
+8 8 2022 La Lobera 1,2022,El Rosario,La Lobera,1,Patiria miniata,50
+8 8 2022 La Lobera 6,2022,El Rosario,La Lobera,6,Centrostephanus coronatus,50
+8 8 2022 La Lobera 6,2022,El Rosario,La Lobera,6,Megastraea undosa,50
+8 8 2022 La Lobera 12,2022,El Rosario,La Lobera,12,Megastraea undosa,50
+8 8 2022 La Lobera 13,2022,El Rosario,La Lobera,13,Megastraea undosa,50
+8 8 2022 La Lobera 14,2022,El Rosario,La Lobera,14,Megastraea undosa,50
+15 8 2022 Lazaro 2,2022,El Rosario,Lazaro,2,Strongylocentrotus purpuratus,50
+15 8 2022 Lazaro 4,2022,El Rosario,Lazaro,4,Megastraea undosa,50
+15 8 2022 Lazaro 4,2022,El Rosario,Lazaro,4,Strongylocentrotus purpuratus,50
+15 8 2022 Lazaro 6,2022,El Rosario,Lazaro,6,Strongylocentrotus purpuratus,50
+15 8 2022 Lazaro 8,2022,El Rosario,Lazaro,8,Strongylocentrotus purpuratus,50
+15 8 2022 Lazaro 9,2022,El Rosario,Lazaro,9,Centrostephanus coronatus,50
+15 8 2022 Lazaro 9,2022,El Rosario,Lazaro,9,Mesocentrotus franciscanus,50
+15 8 2022 Lazaro 9,2022,El Rosario,Lazaro,9,Strongylocentrotus purpuratus,50
+15 8 2022 Lazaro 10,2022,El Rosario,Lazaro,10,Strongylocentrotus purpuratus,50
+15 8 2022 Lazaro 12,2022,El Rosario,Lazaro,12,Strongylocentrotus purpuratus,50
+15 8 2022 Lazaro 14,2022,El Rosario,Lazaro,14,Megastraea undosa,50
+15 8 2022 Lazaro 14,2022,El Rosario,Lazaro,14,Strongylocentrotus purpuratus,50
+15 8 2022 Lazaro 16,2022,El Rosario,Lazaro,16,Strongylocentrotus purpuratus,50
+11 8 2022 Picacho 2,2022,El Rosario,Picacho,2,Megastraea undosa,50
+11 8 2022 Picacho 4,2022,El Rosario,Picacho,4,Megastraea undosa,50
+11 8 2022 Picacho 4,2022,El Rosario,Picacho,4,Strongylocentrotus purpuratus,50
+11 8 2022 Picacho 6,2022,El Rosario,Picacho,6,Megastraea turbanica,50
+11 8 2022 Picacho 7,2022,El Rosario,Picacho,7,Megastraea undosa,50
+11 8 2022 Picacho 8,2022,El Rosario,Picacho,8,Megastraea turbanica,50
+11 8 2022 Picacho 8,2022,El Rosario,Picacho,8,Megastraea undosa,50
+11 8 2022 Picacho 9,2022,El Rosario,Picacho,9,Megastraea undosa,50
+11 8 2022 Picacho 9,2022,El Rosario,Picacho,9,Patiria miniata,50
+11 8 2022 Picacho 9,2022,El Rosario,Picacho,9,Strongylocentrotus purpuratus,50
+11 8 2022 Picacho 10,2022,El Rosario,Picacho,10,Megastraea undosa,50
+11 8 2022 Picacho 10,2022,El Rosario,Picacho,10,Strongylocentrotus purpuratus,50
+11 8 2022 Picacho 11,2022,El Rosario,Picacho,11,Megastraea turbanica,50
+11 8 2022 Picacho 13,2022,El Rosario,Picacho,13,Mesocentrotus franciscanus,50
+11 8 2022 Picacho 14,2022,El Rosario,Picacho,14,Megastraea undosa,50
+11 8 2022 Picacho 14,2022,El Rosario,Picacho,14,Mesocentrotus franciscanus,50
+11 8 2022 Picacho 15,2022,El Rosario,Picacho,15,Megastraea turbanica,50
+11 8 2022 Picacho 15,2022,El Rosario,Picacho,15,Strongylocentrotus purpuratus,50
+4 8 2022 Piedra Vidal 2,2022,El Rosario,Piedra Vidal,2,Megastraea undosa,50
+4 8 2022 Piedra Vidal 10,2022,El Rosario,Piedra Vidal,10,Megastraea undosa,50
+4 8 2022 Piedra Vidal 16,2022,El Rosario,Piedra Vidal,16,Megastraea undosa,50
+9 8 2022 Punta Baja 13,2022,El Rosario,Punta Baja,13,Mesocentrotus franciscanus,50
+5 8 2022 Punta Patos 2,2022,El Rosario,Punta Patos,2,Megastraea undosa,50
+5 8 2022 Punta Patos 4,2022,El Rosario,Punta Patos,4,Megastraea undosa,50
+5 8 2022 Punta Patos 6,2022,El Rosario,Punta Patos,6,Megastraea undosa,50
+5 8 2022 Punta Patos 10,2022,El Rosario,Punta Patos,10,Megastraea undosa,50
+5 8 2022 Punta Patos 11,2022,El Rosario,Punta Patos,11,Megastraea undosa,50
+5 8 2022 Punta Patos 13,2022,El Rosario,Punta Patos,13,Megastraea undosa,50
+5 8 2022 Punta Patos 14,2022,El Rosario,Punta Patos,14,Megastraea undosa,50
+5 8 2022 Punta Patos 15,2022,El Rosario,Punta Patos,15,Megastraea undosa,50
+5 8 2022 Punta Patos 16,2022,El Rosario,Punta Patos,16,Megastraea undosa,50
+3 8 2022 Sportfish 6,2022,El Rosario,Sportfish,6,Megastraea undosa,50
+3 8 2022 Sportfish 10,2022,El Rosario,Sportfish,10,Megastraea undosa,50
+3 8 2022 Sportfish 12,2022,El Rosario,Sportfish,12,Megastraea undosa,50
+3 8 2022 Sportfish 12,2022,El Rosario,Sportfish,12,Mesocentrotus franciscanus,50
+27 9 2022 Babencho 8,2022,Isla Natividad,Babencho,8,Megastraea undosa,50
+25 9 2022 La Dulce 1,2022,Isla Natividad,La Dulce,1,Megastraea undosa,50
+26 9 2022 La Dulce 2,2022,Isla Natividad,La Dulce,2,Megastraea undosa,50
+25 9 2022 La Dulce 3,2022,Isla Natividad,La Dulce,3,Megastraea undosa,50
+26 9 2022 La Dulce 4,2022,Isla Natividad,La Dulce,4,Megastraea undosa,50
+25 9 2022 La Dulce 5,2022,Isla Natividad,La Dulce,5,Megastraea undosa,50
+26 9 2022 La Dulce 6,2022,Isla Natividad,La Dulce,6,Megastraea undosa,50
+25 9 2022 La Dulce 7,2022,Isla Natividad,La Dulce,7,Megastraea undosa,50
+26 9 2022 La Dulce 8,2022,Isla Natividad,La Dulce,8,Megastraea undosa,50
+25 9 2022 La Dulce 9,2022,Isla Natividad,La Dulce,9,Megastraea undosa,50
+26 9 2022 La Dulce 10,2022,Isla Natividad,La Dulce,10,Megastraea undosa,50
+27 9 2022 La Dulce 11,2022,Isla Natividad,La Dulce,11,Megastraea undosa,50
+26 9 2022 La Dulce 12,2022,Isla Natividad,La Dulce,12,Megastraea undosa,50
+27 9 2022 La Dulce 13,2022,Isla Natividad,La Dulce,13,Megastraea undosa,50
+26 9 2022 La Dulce 14,2022,Isla Natividad,La Dulce,14,Megastraea undosa,50
+27 9 2022 La Dulce 15,2022,Isla Natividad,La Dulce,15,Megastraea turbanica,50
+23 9 2022 La Guanera 2,2022,Isla Natividad,La Guanera,2,Megastraea undosa,50
+23 9 2022 La Guanera 4,2022,Isla Natividad,La Guanera,4,Megastraea undosa,50
+23 9 2022 La Guanera 11,2022,Isla Natividad,La Guanera,11,Megastraea undosa,50
+23 9 2022 La Guanera 14,2022,Isla Natividad,La Guanera,14,Megastraea turbanica,50
+25 9 2022 La Plana/Las Cuevas 1,2022,Isla Natividad,La Plana/Las Cuevas,1,Megastraea undosa,50
+24 9 2022 La Plana/Las Cuevas 2,2022,Isla Natividad,La Plana/Las Cuevas,2,Megastraea undosa,50
+25 9 2022 La Plana/Las Cuevas 4,2022,Isla Natividad,La Plana/Las Cuevas,4,Megastraea undosa,50
+25 9 2022 La Plana/Las Cuevas 5,2022,Isla Natividad,La Plana/Las Cuevas,5,Megastraea undosa,50
+24 9 2022 La Plana/Las Cuevas 6,2022,Isla Natividad,La Plana/Las Cuevas,6,Megastraea turbanica,50
+25 9 2022 La Plana/Las Cuevas 7,2022,Isla Natividad,La Plana/Las Cuevas,7,Megastraea turbanica,50
+25 9 2022 La Plana/Las Cuevas 9,2022,Isla Natividad,La Plana/Las Cuevas,9,Megastraea undosa,50
+24 9 2022 La Plana/Las Cuevas 12,2022,Isla Natividad,La Plana/Las Cuevas,12,Megastraea undosa,50
+24 9 2022 La Plana/Las Cuevas 14,2022,Isla Natividad,La Plana/Las Cuevas,14,Megastraea undosa,50
+25 9 2022 La Plana/Las Cuevas 15,2022,Isla Natividad,La Plana/Las Cuevas,15,Megastraea undosa,50
+26 9 2022 La Plana/Las Cuevas 17,2022,Isla Natividad,La Plana/Las Cuevas,17,Megastraea undosa,50
+22 9 2022 Punta Prieta 5,2022,Isla Natividad,Punta Prieta,5,Megastraea turbanica,50
+22 9 2022 Punta Prieta 8,2022,Isla Natividad,Punta Prieta,8,Megastraea undosa,50
+22 9 2022 Punta Prieta 9,2022,Isla Natividad,Punta Prieta,9,Megastraea undosa,50
+22 9 2022 Punta Prieta 11,2022,Isla Natividad,Punta Prieta,11,Megastraea undosa,50
+5 8 2023 Caracolera 2,2023,El Rosario,Caracolera,2,Megastraea undosa,50
+5 8 2023 Caracolera 2,2023,El Rosario,Caracolera,2,Strongylocentrotus purpuratus,50
+5 8 2023 Caracolera 4,2023,El Rosario,Caracolera,4,Megastraea turbanica,50
+5 8 2023 Caracolera 6,2023,El Rosario,Caracolera,6,Strongylocentrotus purpuratus,50
+5 8 2023 Caracolera 10,2023,El Rosario,Caracolera,10,Strongylocentrotus purpuratus,50
+5 8 2023 Caracolera 12,2023,El Rosario,Caracolera,12,Megastraea undosa,50
+5 8 2023 Caracolera 14,2023,El Rosario,Caracolera,14,Strongylocentrotus purpuratus,50
+5 8 2023 Caracolera 16,2023,El Rosario,Caracolera,16,Strongylocentrotus purpuratus,50
+11 8 2023 Chinatown 4,2023,El Rosario,Chinatown,4,Megastraea undosa,50
+11 8 2023 Chinatown 4,2023,El Rosario,Chinatown,4,Mesocentrotus franciscanus,50
+11 8 2023 Chinatown 8,2023,El Rosario,Chinatown,8,Megastraea turbanica,50
+11 8 2023 Chinatown 8,2023,El Rosario,Chinatown,8,Mesocentrotus franciscanus,50
+11 8 2023 Chinatown 10,2023,El Rosario,Chinatown,10,Megastraea turbanica,50
+11 8 2023 Chinatown 12,2023,El Rosario,Chinatown,12,Megastraea undosa,50
+11 8 2023 Chinatown 12,2023,El Rosario,Chinatown,12,Mesocentrotus franciscanus,50
+11 8 2023 Chinatown 14,2023,El Rosario,Chinatown,14,Megastraea turbanica,50
+11 8 2023 Chinatown 16,2023,El Rosario,Chinatown,16,Megastraea undosa,50
+10 8 2023 La Lobera 2,2023,El Rosario,La Lobera,2,Megastraea undosa,50
+10 8 2023 La Lobera 2,2023,El Rosario,La Lobera,2,Strongylocentrotus purpuratus,50
+10 8 2023 La Lobera 3,2023,El Rosario,La Lobera,3,Megastraea turbanica,50
+10 8 2023 La Lobera 4,2023,El Rosario,La Lobera,4,Megastraea turbanica,50
+10 8 2023 La Lobera 4,2023,El Rosario,La Lobera,4,Strongylocentrotus purpuratus,50
+10 8 2023 La Lobera 6,2023,El Rosario,La Lobera,6,Megastraea undosa,50
+10 8 2023 La Lobera 8,2023,El Rosario,La Lobera,8,Strongylocentrotus purpuratus,50
+10 8 2023 La Lobera 10,2023,El Rosario,La Lobera,10,Megastraea undosa,50
+10 8 2023 La Lobera 12,2023,El Rosario,La Lobera,12,Mesocentrotus franciscanus,50
+10 8 2023 La Lobera 12,2023,El Rosario,La Lobera,12,Strongylocentrotus purpuratus,50
+10 8 2023 La Lobera 13,2023,El Rosario,La Lobera,13,Megastraea turbanica,50
+10 8 2023 La Lobera 14,2023,El Rosario,La Lobera,14,Megastraea turbanica,50
+10 8 2023 La Lobera 16,2023,El Rosario,La Lobera,16,Megastraea undosa,50
+10 8 2023 La Lobera 16,2023,El Rosario,La Lobera,16,Mesocentrotus franciscanus,50
+3 8 2023 Lazaro 1,2023,El Rosario,Lazaro,1,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 2,2023,El Rosario,Lazaro,2,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 3,2023,El Rosario,Lazaro,3,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 4,2023,El Rosario,Lazaro,4,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 5,2023,El Rosario,Lazaro,5,Centrostephanus coronatus,50
+3 8 2023 Lazaro 5,2023,El Rosario,Lazaro,5,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 6,2023,El Rosario,Lazaro,6,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 7,2023,El Rosario,Lazaro,7,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 8,2023,El Rosario,Lazaro,8,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 9,2023,El Rosario,Lazaro,9,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 10,2023,El Rosario,Lazaro,10,Megastraea undosa,50
+3 8 2023 Lazaro 10,2023,El Rosario,Lazaro,10,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 12,2023,El Rosario,Lazaro,12,Megastraea undosa,50
+3 8 2023 Lazaro 12,2023,El Rosario,Lazaro,12,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 14,2023,El Rosario,Lazaro,14,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 15,2023,El Rosario,Lazaro,15,Strongylocentrotus purpuratus,50
+3 8 2023 Lazaro 16,2023,El Rosario,Lazaro,16,Strongylocentrotus purpuratus,50
+4 8 2023 Picacho 2,2023,El Rosario,Picacho,2,Megastraea undosa,50
+4 8 2023 Picacho 2,2023,El Rosario,Picacho,2,Strongylocentrotus purpuratus,50
+4 8 2023 Picacho 3,2023,El Rosario,Picacho,3,Megastraea turbanica,50
+4 8 2023 Picacho 4,2023,El Rosario,Picacho,4,Strongylocentrotus purpuratus,50
+4 8 2023 Picacho 8,2023,El Rosario,Picacho,8,Centrostephanus coronatus,50
+4 8 2023 Picacho 8,2023,El Rosario,Picacho,8,Mesocentrotus franciscanus,50
+4 8 2023 Picacho 10,2023,El Rosario,Picacho,10,Mesocentrotus franciscanus,50
+4 8 2023 Picacho 10,2023,El Rosario,Picacho,10,Strongylocentrotus purpuratus,50
+4 8 2023 Picacho 12,2023,El Rosario,Picacho,12,Strongylocentrotus purpuratus,50
+4 8 2023 Picacho 14,2023,El Rosario,Picacho,14,Mesocentrotus franciscanus,50
+4 8 2023 Picacho 14,2023,El Rosario,Picacho,14,Strongylocentrotus purpuratus,50
+4 8 2023 Picacho 15,2023,El Rosario,Picacho,15,Strongylocentrotus purpuratus,50
+4 8 2023 Picacho 16,2023,El Rosario,Picacho,16,Strongylocentrotus purpuratus,50
+8 8 2023 Piedra Vidal 8,2023,El Rosario,Piedra Vidal,8,Megastraea undosa,50
+7 8 2023 Punta Patos 4,2023,El Rosario,Punta Patos,4,Megastraea turbanica,50
+7 8 2023 Punta Patos 10,2023,El Rosario,Punta Patos,10,Megastraea undosa,50
+7 8 2023 Punta Patos 11,2023,El Rosario,Punta Patos,11,Megastraea undosa,50
+7 8 2023 Punta Patos 12,2023,El Rosario,Punta Patos,12,Megastraea undosa,50
+9 8 2023 Sportfish 4,2023,El Rosario,Sportfish,4,Megastraea turbanica,50
+9 8 2023 Sportfish 10,2023,El Rosario,Sportfish,10,Megastraea undosa,50
+9 8 2023 Sportfish 15,2023,El Rosario,Sportfish,15,Strongylocentrotus purpuratus,50
+9 8 2023 Sportfish 16,2023,El Rosario,Sportfish,16,Megastraea undosa,50
+19 9 2023 La Dulce 1,2023,Isla Natividad,La Dulce,1,Megastraea undosa,50
+19 9 2023 La Dulce 2,2023,Isla Natividad,La Dulce,2,Megastraea undosa,50
+19 9 2023 La Dulce 3,2023,Isla Natividad,La Dulce,3,Megastraea undosa,50
+19 9 2023 La Dulce 4,2023,Isla Natividad,La Dulce,4,Megastraea undosa,50
+19 9 2023 La Dulce 6,2023,Isla Natividad,La Dulce,6,Megastraea undosa,50
+19 9 2023 La Dulce 7,2023,Isla Natividad,La Dulce,7,Megastraea undosa,50
+19 9 2023 La Dulce 8,2023,Isla Natividad,La Dulce,8,Megastraea undosa,50
+20 9 2023 La Dulce 10,2023,Isla Natividad,La Dulce,10,Megastraea undosa,50
+20 9 2023 La Dulce 11,2023,Isla Natividad,La Dulce,11,Megastraea undosa,50
+20 9 2023 La Dulce 12,2023,Isla Natividad,La Dulce,12,Megastraea undosa,50
+20 9 2023 La Dulce 14,2023,Isla Natividad,La Dulce,14,Megastraea undosa,50
+20 9 2023 La Dulce 15,2023,Isla Natividad,La Dulce,15,Megastraea undosa,50
+20 9 2023 La Dulce 16,2023,Isla Natividad,La Dulce,16,Megastraea undosa,50
+17 9 2023 La Guanera 7,2023,Isla Natividad,La Guanera,7,Megastraea undosa,50
+18 9 2023 La Guanera 10,2023,Isla Natividad,La Guanera,10,Megastraea undosa,50
+18 9 2023 La Guanera 12,2023,Isla Natividad,La Guanera,12,Megastraea undosa,50
+18 9 2023 La Guanera 13,2023,Isla Natividad,La Guanera,13,Megastraea undosa,50
+18 9 2023 La Guanera 15,2023,Isla Natividad,La Guanera,15,Megastraea undosa,50
+18 9 2023 La Guanera 16,2023,Isla Natividad,La Guanera,16,Megastraea undosa,50
+21 9 2023 La Plana/Las Cuevas 4,2023,Isla Natividad,La Plana/Las Cuevas,4,Megastraea undosa,50
+21 9 2023 La Plana/Las Cuevas 8,2023,Isla Natividad,La Plana/Las Cuevas,8,Megastraea undosa,50
+22 9 2023 La Plana/Las Cuevas 12,2023,Isla Natividad,La Plana/Las Cuevas,12,Megastraea undosa,50
+22 9 2023 La Plana/Las Cuevas 13,2023,Isla Natividad,La Plana/Las Cuevas,13,Megastraea undosa,50
+22 9 2023 La Plana/Las Cuevas 14,2023,Isla Natividad,La Plana/Las Cuevas,14,Megastraea undosa,50
+282024Picacho8,2024,El Rosario,Picacho,8,Strongylocentrotus purpuratus,50
+2992024La Plana/Las Cuevas1,2024,Isla Natividad,La Plana/Las Cuevas,1,Megastraea undosa,50
+2992024La Plana/Las Cuevas5,2024,Isla Natividad,La Plana/Las Cuevas,5,Megastraea undosa,50
+2992024La Plana/Las Cuevas7,2024,Isla Natividad,La Plana/Las Cuevas,7,Megastraea undosa,50
+2992024La Plana/Las Cuevas13,2024,Isla Natividad,La Plana/Las Cuevas,13,Megastraea undosa,50
+2992024La Plana/Las Cuevas14,2024,Isla Natividad,La Plana/Las Cuevas,14,Megastraea undosa,50
+2992024La Plana/Las Cuevas15,2024,Isla Natividad,La Plana/Las Cuevas,15,Megastraea undosa,50
