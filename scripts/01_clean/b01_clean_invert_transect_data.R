@@ -23,17 +23,17 @@ pacman::p_load(
 # Load data --------------------------------------------------------------------
 Inv_2006_2021 <- read_excel(here("data/raw/COBI _Invrt_2006-2021_12jul2021.xlsx")) |> 
   clean_names()  |>  
-  select(id, anio, sitio, comunidad, transecto, especie, abundancia)
+  select(id, anio, sitio, comunidad, zona, transecto, especie, abundancia)
 
 Inv_2022 <- read_csv(here("data/raw/COBI_Invertebrates_2022_19may2023.csv")) |> 
   clean_names() |> 
   mutate(abundancia = as.numeric(abundancia)) |> 
-  select(id, anio, sitio, comunidad, transecto, especie, abundancia)
+  select(id, anio, sitio, comunidad, zona, transecto, especie, abundancia)
 
 Inv_2023 <- read_csv(here("data/raw/COBI Invertebrados PBC 2023(23feb2023).csv")) |> 
   clean_names() |> 
   mutate(abundancia = as.numeric(abundancia)) |> 
-  select(id, anio, sitio, comunidad, transecto, especie, abundancia)
+  select(id, anio, sitio, comunidad, zona, transecto, especie, abundancia)
 
 Inv_ERO_2024 <- read_excel(here("data/raw/COBI_Invertebrados_El Rosario_2024.xlsx"),
                            sheet = "Datos") |> 
@@ -42,7 +42,7 @@ Inv_ERO_2024 <- read_excel(here("data/raw/COBI_Invertebrados_El Rosario_2024.xls
          distancia = as.numeric(distancia),
          abundancia = round(abundancia * (30 / distancia)),
          especie = paste(genero, especie)) |> 
-  select(id, anio, sitio, comunidad, transecto, genero,especie, abundancia)
+  select(id, anio, sitio, comunidad, zona, transecto, genero,especie, abundancia)
 
 Inv_INT_2024 <- read_excel(here("data/raw/COBI_Invertebrados_Natividad_2024.xls")) |> 
   clean_names() |> 
@@ -50,7 +50,7 @@ Inv_INT_2024 <- read_excel(here("data/raw/COBI_Invertebrados_Natividad_2024.xls"
          distancia = as.numeric(distancia),
          abundancia = round(abundancia * (30 / distancia)),
          especie = paste(genero, especie)) |> 
-  select(id, anio, sitio, comunidad, transecto, especie, abundancia)
+  select(id, anio, sitio, comunidad, zona, transecto, especie, abundancia)
 
 Inv <- bind_rows(Inv_2006_2021, Inv_2022, Inv_2023, Inv_ERO_2024, Inv_INT_2024) |> 
   drop_na(abundancia)
@@ -68,6 +68,7 @@ final <- Inv |>
          year = anio,
          site_name = sitio,
          community = comunidad,
+         zone = zona, 
          transect = transecto,
          species = especie,
          abundance = abundancia) |> 
@@ -77,7 +78,7 @@ final <- Inv |>
                                 species == "Haliotis fulgens" ~ "green_abalone",
                                 species == "Mesocentrotus franciscanus" ~ "red_urchin",
                                 species == "Panulirus interruptus" ~ "red_lobster")) %>% 
-  select(id, year, community, site_name, transect, species, target_spp, abundance) |> 
+  select(id, year, community, zone, site_name, transect, species, target_spp, abundance) |> 
   mutate(density = abundance / 60)
 
 ## EXPORT ######################################################################
@@ -85,4 +86,5 @@ final <- Inv |>
 # X ----------------------------------------------------------------------------
 saveRDS(object = final,
         file = here("data", "processed", "clean_inverts.rds"))
+
 
