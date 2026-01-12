@@ -33,16 +33,14 @@ species_distance_summary
 # Filtering to contain only paper relevant species - abalone, urchin, and lobster 
   # No surveys with count of abalone greater than 50
   # 1 red_lobster entry with valid recorded distance out of total of 1 surveys containing over 50 red lobster 
-  # 65 purple_urchin entries with valid recorded distance out of total 121 surveys
   # 23 red urchin entries with valid recorded distance of of total 54 surveys
 
 filtered_invert_dist <- invert_dist %>%
-  filter(species %in% c('Strongylocentrotus purpuratus', 
+  filter(species %in% c(
                         'Mesocentrotus franciscanus',
                         'Panulirus interruptus')) %>%
   drop_na(extrap_count) %>%
   mutate(target_spp = case_match(species,
-                                 "Strongylocentrotus purpuratus" ~ "purple_urchin", # 65 entries 
                                  "Mesocentrotus franciscanus" ~ "red_urchin", # 23 entries 
                                  "Panulirus interruptus" ~ "red_lobster")) %>% # 1 entry 
   mutate(density = (extrap_count / 60))
