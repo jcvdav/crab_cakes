@@ -42,10 +42,10 @@ main_ss_data <- ss_data %>%
   mutate(target_spp = str_to_sentence(str_replace_all(target_spp, "_", " ")))
 
 ## VISUALIZE ###################################################################
-my_color_scale <- c("Pink abalone" = "#c995c7",
-                    "Green abalone" = "#65805d",
-                    "Red urchin" = scales::muted("red"),
-                    "Red lobster" = "#805d5d")
+my_color_scale <- c("Pink abalone" = "#F590A0",
+                    "Green abalone" = "#8BBF67",
+                    "Red urchin" = "#E35335",
+                    "Red lobster" = "#770737")
 
 # X ----------------------------------------------------------------------------
 extraction <- ggplot(data = main_lb_data,

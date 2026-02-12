@@ -37,12 +37,12 @@ ero_2020_sportfish_abalone <- invert_transects %>%
          event = year - 2020,
          treated = 1 * (site_name == "Sportfish"))
 
-ero_2021_caracolera_urchin <- invert_transects %>% 
-  filter(community == "El Rosario",
-         species == "Mesocentrotus franciscanus") %>% 
-  mutate(post = 1 * (year >= 2022), # They fished on Nov 1, 2, 7, 8 and 12 of 2021. That year's monitoring was between 2021-08-03 and 2021-08-12 so it was pre-harvest
-         event = year - 2022,
-         treated = 1 * (site_name == "Caracolera"))
+#ero_2021_caracolera_urchin <- invert_transects %>% 
+#  filter(community == "El Rosario",
+#         species == "Mesocentrotus franciscanus") %>% 
+#  mutate(post = 1 * (year >= 2022), # They fished on Nov 1, 2, 7, 8 and 12 of 2021. That year's monitoring was between 2021-08-03 and 2021-08-12 so it was pre-harvest
+#         event = year - 2022,
+#         treated = 1 * (site_name == "Caracolera"))
 
 ero_2023_lobster <- invert_transects |> 
   filter(community == "El Rosario",
@@ -52,7 +52,7 @@ ero_2023_lobster <- invert_transects |>
          treated = 1 * (site_name == "Sportfish"))
 
 ero <- bind_rows(ero_2020_sportfish_abalone,
-                 ero_2021_caracolera_urchin,
+                # ero_2021_caracolera_urchin,
                  ero_2023_lobster)
 
 nat_2023_abalone <- invert_transects %>% 
@@ -81,10 +81,10 @@ data <- bind_rows(ero, nat) %>%
   mutate(target_spp = str_to_sentence(str_replace_all(target_spp, "_", " ")))
 
 ## VISUALIZE ###################################################################
-my_color_scale <- c("Pink abalone" = "#c995c7",
-                    "Green abalone" = "#65805d",
-                    "Red urchin" = scales::muted("red"),
-                    "Red lobster" = "#805d5d")
+my_color_scale <- c("Pink abalone" = "#F590A0",
+                    "Green abalone" = "#8BBF67",
+                    "Red urchin" = "#E35335",
+                    "Red lobster" = "#770737")
 
 # X ----------------------------------------------------------------------------
 ggplot(data = data,
@@ -140,7 +140,7 @@ agg_mod <- feols(log(density) ~ post*treated | site_name + year,
                  split = ~paste(community, target_spp)) |> 
   set_names(c("El Rosario Green abalone",
               "El Rosario Red lobster",
-              "El Rosario Red urchin",
+             # "El Rosario Red urchin",
               "Isla Natividad Green abalone",
               "Isla Natividad Pink abalone",
               "Isla Natividad Red lobster"))
