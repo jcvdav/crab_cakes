@@ -62,7 +62,9 @@ target_spp <- c("Haliotis corrugata",
                 "Haliotis fulgens",
                 "Panulirus interruptus")
 
-final <- Inv |> 
+communities <- c("El Rosario", "Isla Natividad")
+
+data <- Inv |> 
   select(id,
          year = anio,
          site_name = sitio,
@@ -71,7 +73,7 @@ final <- Inv |>
          transect = transecto,
          species = especie,
          abundance = abundancia) |> 
-  filter(community %in% c("El Rosario", "Isla Natividad"),
+  filter(community %in% communities,
          species %in% target_spp) |> 
   mutate(target_spp = case_when(species == "Haliotis corrugata" ~ "pink_abalone",
                                 species == "Haliotis fulgens" ~ "green_abalone",
