@@ -81,6 +81,19 @@ data <- Inv |>
   select(id, year, community, zone, site_name, transect, species, target_spp, abundance) |> 
   mutate(density = abundance / 60)
 
+## Checks: ---------------------------------------------------------------------
+# Does any species have an abundance of exactly 50?
+ids_with_50 <- data |>
+  filter(abundance == 50) |> 
+  pull(id)
+
+ids_with_50
+
+# It looks like Panulirus does. It comes from Inv_2006_2021, which does not include a distance column
+# that would allow us to extrapolate the data as done in the methodology.
+# We were able to source the original distance data to fix this. The fix is implemented below.
+
+## Fixes -----------------------------------------------------------------------
 ## NOTE: Survey id 12 8 2021 Chinatown 16 for red lobster (Panuliris interruptus) hit the 50 count maxiumum at a distance of 5m
     # Edits made by JD Reigrut
 
