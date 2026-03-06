@@ -97,33 +97,34 @@ ids_with_50
 ## NOTE: Survey id 12 8 2021 Chinatown 16 for red lobster (Panuliris interruptus) hit the 50 count maxiumum at a distance of 5m
     # Edits made by JD Reigrut
 
-# Removing this line from the final df 
-final <- final %>%
-  filter(!(id == "12 8 2021 Chinatown 16" & species == "Panulirus interruptus"))
-
 # Creating correct row from the invert transect data (for back tracing)
+fixed_dist <- read_csv(file = here("data", "raw", "Imelda_checks", "datos_invert_50_all_distance.csv")) |> 
+  clean_names() |> 
+  # Get the abundance and distance data for the record missing distance
+  filter(id == ids_with_50) |> 
+  mutate(distancia = as.numeric(distancia),
+         zone = unique(data$zone[data$id %in% ids_with_50])) |> 
+  # Normalize abundance, convert to density, and obtain 
+  mutate(abundancia = round(abundance * (30 / distancia)),
+         density = abundancia / 60)
 
-invert_dist <- read.csv(
-  file = here("data", "raw", "datos_invert_50_all_distance.csv"),
-  fileEncoding = "latin1",
-  stringsAsFactors = FALSE
+
+# Finalize data
+final <- data %>%
+  # Removing this line from the final df 
+  filter(!(id %in% ids_with_50 & species == "Panulirus interruptus")) |> 
+  # Adding corrected row back to final df 
+  bind_rows(fixed_dist)
+
+## More checks -----------------------------------------------------------------
+# Is the final data the same size as the data before we modified the lobster record?
+dim(data) == dim(final)
+
+# Other than the record we manually modified, are the datasets the same?
+identical(
+  data |> filter(!id %in% ids_with_50),
+  final |> filter(!id %in% ids_with_50)
 )
-
-invert_dist <- invert_dist %>%
-  mutate(distance = na_if(Distancia, "Sin información")) %>%
-  select(-Distancia) %>%
-  mutate(distance = as.numeric(distance),
-         extrap_count = (50 / distance) * abundance) %>%
-  filter(species %in% c('Panulirus interruptus')) %>%
-  drop_na(extrap_count) %>%
-  mutate(target_spp = case_match(species, "Panulirus interruptus" ~ "red_lobster")) %>% #  
-  mutate(density = (extrap_count / 60)) %>%
-  select(-abundance) %>%
-  rename(abundance = extrap_count) %>% #Extrapolated count becomes abundance 
-  mutate(zone = "Reserva") # Taken from value of other sites in the same survey (by transect ID)
-
-# Adding corrected row back to final df 
-final <- bind_rows(final, invert_dist)
   
 ## EXPORT ######################################################################
 
