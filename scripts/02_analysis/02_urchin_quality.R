@@ -13,6 +13,13 @@
 ## SET UP ######################################################################
 
 # Load packages ----------------------------------------------------------------
+pacman::p_load(
+  here,
+  tidyverse,
+  cowplot
+)
+
+theme_set(theme_linedraw(base_size = 10))
 
 # Load data --------------------------------------------------------------------
 lb_data <- read_rds(here("data", "processed", "lb_data_all.rds"))
@@ -54,24 +61,33 @@ t.test(formula = gonad_index ~ zone,
 # X ----------------------------------------------------------------------------
 size <- ggplot(urchin_size_structure,
        aes(x = zone, y = size_cm)) +
-  geom_jitter(height = 0, width = 0.1, size = 0.1, color = "gray") +
-  geom_violin(draw_quantiles = c(0.25, 0.5, 0.75), fill = "transparent") +
-  stat_summary(geom = "pointrange", fun.data = "mean_se", fun.args = list(mult = 1)) +
+  geom_violin(draw_quantiles = c(0.25, 0.5, 0.75), color = "#CB181D", fill = "#CB181D", alpha = 0.25,
+              quantile.colour = "black") +
+  geom_jitter(height = 0, width = 0.1, size = 0.1) +
+  stat_summary(geom = "point", fun = "mean", fill = "#CB181D", color = "black", size = 2, shape = 21) +
+  theme_linedraw() +
   labs(x = "",
        y = "Test diameter (cm)")
 
 gonads <- ggplot(urchin_gonad_index,
        aes(x = zone, y = gonad_index)) +
-  geom_jitter(height = 0, width = 0.1, size = 0.1, color = "gray") +
-  geom_violin(draw_quantiles = c(0.25, 0.5, 0.75), fill = "transparent") +
-  stat_summary(geom = "pointrange", fun.data = "mean_se", fun.args = list(mult = 1)) +
+  geom_violin(draw_quantiles = c(0.25, 0.5, 0.75), color = "#CB181D", fill = "#CB181D", alpha = 0.25,
+              quantile.colour = "black") +
+  geom_jitter(height = 0, width = 0.1, size = 0.1) +
+  stat_summary(geom = "point", fun = "mean", fill = "#CB181D", color = "black", size = 2, shape = 21) +
+  theme_linedraw() +
   labs(x = "Source",
        y = "Gonadosomatic index (%)")
 
-plot_grid(size, gonads,
+p <- plot_grid(size, gonads,
           ncol = 1,
           labels = "AUTO")
 
 ## EXPORT ######################################################################
 
 # X ----------------------------------------------------------------------------
+ggsave(plot = p,
+       filename = here("results/figs/urchin_quality.png"),
+       width = 4.5,
+       height = 6)
+
