@@ -103,10 +103,12 @@ fixed_dist <- read_csv(file = here("data", "raw", "Imelda_checks", "datos_invert
   # Get the abundance and distance data for the record missing distance
   filter(id == ids_with_50) |> 
   mutate(distancia = as.numeric(distancia),
-         zone = unique(data$zone[data$id %in% ids_with_50])) |> 
+         zone = unique(data$zone[data$id %in% ids_with_50]),
+         target_spp = unique(data$target_spp[data$id %in% ids_with_50])) |> 
   # Normalize abundance, convert to density, and obtain 
-  mutate(abundancia = round(abundance * (30 / distancia)),
-         density = abundancia / 60)
+  mutate(abundance = round(abundance * (30 / distancia)),
+         density = abundance / 60) |> 
+  select(id, year, community, zone, site_name, transect, species, target_spp, abundance, density)
 
 
 # Finalize data
