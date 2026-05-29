@@ -29,6 +29,7 @@ profitability_metrics <- lb_data %>%
   filter(!site_name == "TURF") %>% 
   group_by(location, year, site_name, target_spp) %>% 
   summarize(n_days = n_distinct(date),
+            n_boats = n_distinct(boat),
             catch_total_kg = sum(catch_total_kg, na.rm = T),
             catch_num = sum(catch_num, na.rm = T),
             revenue_usd = sum(revenue_usd, na.rm = T) / 1000,
@@ -44,7 +45,7 @@ profitability_metrics <- lb_data %>%
 # X ----------------------------------------------------------------------------
 table <- kbl(profitability_metrics,
     col.names = c("Location", "Year", "Reserve", "Target species",
-                  "Days fishing", "Total Catch (Kg)", "Total Catch (#)",
+                  "Days fishing (#)", "Fishing teams (#)", "Total Catch (Kg)", "Total Catch (#)",
                   "Revenue (K $USD)", "Cost (K $USD)", "Profits (K $USD)",
                   "Daily profits(K $USD/day)"),
     digits = 2)

@@ -62,7 +62,8 @@ extraction <- ggplot(data = main_lb_data,
         legend.justification = c(1, 1)) +
   labs(x = "Event",
        y = "Total catch (Kg)",
-       fill = "Species") +  coord_flip()
+       fill = "Species") +
+  coord_flip()
 
 size_dist <- ggplot(data = main_ss_data,
        mapping = aes(x = size_cm, fill = target_spp)) + 
@@ -85,4 +86,3 @@ ggsave(plot = p,
        filename = here("results/figs/catch_and_structure.png"),
        width = 9,
        height = 6)
-
