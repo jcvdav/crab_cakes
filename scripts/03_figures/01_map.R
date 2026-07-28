@@ -61,7 +61,7 @@ world  <- ne_countries(scale = "small", returnclass = "sf")
 ## Reference map  ----------------------------------------------------------------
 label_coordinates <- data.frame(
   letter = c("B", "C"),
-  lon    = c(-115.9, -115.2), 
+  lon    = c(-115.9, -115.3), 
   lat    = c(29.9, 27.9)  
 )
 
@@ -101,7 +101,7 @@ inset_map <- ggplot() +
 
 map_with_inset <- ggdraw() +
   draw_plot(context_map) +
-  draw_plot(inset_map, x = 0.22, y = 0.08, width = 0.3, height = 0.3)
+  draw_plot(inset_map, x = 0.175, y = 0.022, width = 0.3, height = 0.3)
 
 ## Site maps  ----------------------------------------------------------------
  
